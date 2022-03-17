@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Beach Please</h1>
+    <h1 id="header">Beach Please</h1>
     <h2>Champagne Beach</h2>
     <h2>Ora Beach</h2>
     <h2>Sea of Stars</h2>
