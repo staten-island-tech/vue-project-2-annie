@@ -1,11 +1,33 @@
 <template>
   <div>
-    <h1 id="header">Beach Please</h1>
-    <h2>Champagne Beach</h2>
-    <h2>Ora Beach</h2>
-    <h2>Sea of Stars</h2>
-    <h2>Copacabana</h2>
-    <h2>Renaissance Island</h2>
+    <div id="titles">
+      <h1 id="header">Beach Please</h1>
+      <div class="names">
+        <img class="seashell" src="../images/seashell.PNG" />
+        <h2>Champagne Beach</h2>
+        <img class="seashell" src="../images/seashell.PNG" />
+      </div>
+      <div class="names">
+        <img class="seashell" src="../images/seashell.PNG" />
+        <h2>Ora Beach</h2>
+        <img class="seashell" src="../images/seashell.PNG" />
+      </div>
+      <div class="names">
+        <img class="seashell" src="../images/seashell.PNG" />
+        <h2>Sea of Stars</h2>
+        <img class="seashell" src="../images/seashell.PNG" />
+      </div>
+      <div class="names">
+        <img class="seashell" src="../images/seashell.PNG" />
+        <h2>Copacabana</h2>
+        <img class="seashell" src="../images/seashell.PNG" />
+      </div>
+      <div class="names">
+        <img class="seashell" src="../images/seashell.PNG" />
+        <h2>Renaissance Island</h2>
+        <img class="seashell" src="../images/seashell.PNG" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -59,5 +81,13 @@ h2 {
   color: var(--black);
   font-size: var(--h2);
   text-align: center;
+}
+.seashell {
+  width: 10rem;
+  height: 10rem;
+}
+.names {
+  position: relative;
+  white-space: nowrap;
 }
 </style>
