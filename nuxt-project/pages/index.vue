@@ -1,31 +1,31 @@
 <template>
   <div>
+    <h1 id="header">Beach Please</h1>
     <div id="titles">
-      <h1 id="header">Beach Please</h1>
       <div class="names">
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Champagne Beach</h2>
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell2" src="../images/seashell.PNG" />
       </div>
       <div class="names">
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Ora Beach</h2>
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell2" src="../images/seashell.PNG" />
       </div>
       <div class="names">
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Sea of Stars</h2>
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell2" src="../images/seashell.PNG" />
       </div>
       <div class="names">
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Copacabana</h2>
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell2" src="../images/seashell.PNG" />
       </div>
       <div class="names">
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Renaissance Island</h2>
-        <img class="seashell" src="../images/seashell.PNG" />
+        <img class="seashell2" src="../images/seashell.PNG" />
       </div>
     </div>
   </div>
@@ -82,12 +82,22 @@ h2 {
   font-size: var(--h2);
   text-align: center;
 }
-.seashell {
+.seashell1 {
   width: 10rem;
   height: 10rem;
+  float: left;
+}
+.seashell2 {
+  width: 10rem;
+  height: 10rem;
+  float: right;
+  margin-top: -10rem;
+}
+#titles {
+  position: static;
+  display: inline;
 }
 .names {
-  position: relative;
-  white-space: nowrap;
+  margin-top: 5rem;
 }
 </style>
