@@ -104,7 +104,7 @@ h2 {
   margin-top: 10rem;
 }
 .names {
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 .bigpics {
   margin-top: 5rem;
@@ -112,6 +112,5 @@ h2 {
   height: 100rem;
   object-fit: cover;
   margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 </style>
