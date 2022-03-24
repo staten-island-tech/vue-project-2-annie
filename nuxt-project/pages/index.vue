@@ -7,26 +7,31 @@
         <h2>Champagne Beach</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
+      <img class="bigpics" src="../images/champagne beach.jpg" />
       <div class="names">
         <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Ora Beach</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
+      <img class="bigpics" src="../images/ora beach.jpg" />
       <div class="names">
         <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Sea of Stars</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
+      <img class="bigpics" src="../images/maldives.jpg" />
       <div class="names">
         <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Copacabana</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
+      <img class="bigpics" src="../images/copacabana.jpg" />
       <div class="names">
         <img class="seashell1" src="../images/seashell.PNG" />
         <h2>Renaissance Island</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
+      <img class="bigpics" src="../images/ri.png" />
     </div>
   </div>
 </template>
@@ -96,8 +101,17 @@ h2 {
 #titles {
   position: static;
   display: inline;
+  margin-top: 10rem;
 }
 .names {
   margin-top: 5rem;
+}
+.bigpics {
+  margin-top: 5rem;
+  width: 100%;
+  height: 100rem;
+  object-fit: cover;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 </style>
