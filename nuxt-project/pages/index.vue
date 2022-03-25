@@ -79,8 +79,13 @@ h1 {
   font-size: var(--h1);
   background: var(--dark-blue);
   text-align: center;
+  width: 170rem;
+  height: 30rem;
   padding: 4rem;
   font-family: "Ribeye", cursive;
+  border-radius: 3rem;
+  margin-left: 5.5%;
+  margin-top: 8rem;
 }
 h2 {
   color: var(--black);
@@ -88,15 +93,16 @@ h2 {
   text-align: center;
 }
 .seashell1 {
-  width: 10rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
   float: left;
+  margin-top: -5rem;
 }
 .seashell2 {
-  width: 10rem;
-  height: 10rem;
+  width: 20rem;
+  height: 20rem;
   float: right;
-  margin-top: -10rem;
+  margin-top: -15rem;
 }
 #titles {
   position: static;
