@@ -2,36 +2,30 @@
   <div>
     <h1 id="header">Beach Please</h1>
     <div id="titles">
-      <div class="names">
+      <div class="shells">
         <img class="seashell1" src="../images/seashell.PNG" />
-        <h2>Champagne Beach</h2>
         <img class="seashell2" src="../images/seashell.PNG" />
       </div>
-      <img class="bigpics" src="../images/champagne beach.jpg" />
-      <div class="names">
-        <img class="seashell1" src="../images/seashell.PNG" />
-        <h2>Ora Beach</h2>
-        <img class="seashell2" src="../images/seashell.PNG" />
+      <div class="cham">
+        <h2 class="names">Champagne Beach</h2>
+        <img class="bigpics" src="../images/champagne beach.jpg" />
       </div>
-      <img class="bigpics" src="../images/ora beach.jpg" />
-      <div class="names">
-        <img class="seashell1" src="../images/seashell.PNG" />
-        <h2>Sea of Stars</h2>
-        <img class="seashell2" src="../images/seashell.PNG" />
+      <div class="ora">
+        <h2 class="names">Ora Beach</h2>
+        <img class="bigpics" src="../images/ora beach.jpg" />
       </div>
-      <img class="bigpics" src="../images/maldives.jpg" />
-      <div class="names">
-        <img class="seashell1" src="../images/seashell.PNG" />
-        <h2>Copacabana</h2>
-        <img class="seashell2" src="../images/seashell.PNG" />
+      <div class="stars">
+        <h2 class="names">Sea of Stars</h2>
+        <img class="bigpics" src="../images/maldives.jpg" />
       </div>
-      <img class="bigpics" src="../images/copacabana.jpg" />
-      <div class="names">
-        <img class="seashell1" src="../images/seashell.PNG" />
-        <h2>Renaissance Island</h2>
-        <img class="seashell2" src="../images/seashell.PNG" />
+      <div class="copa">
+        <h2 class="names">Copacabana</h2>
+        <img class="bigpics" src="../images/copacabana.jpg" />
       </div>
-      <img class="bigpics" src="../images/ri.png" />
+      <div class="rena">
+        <h2 class="names">Renaissance Island</h2>
+        <img class="bigpics" src="../images/ri.png" />
+      </div>
     </div>
   </div>
 </template>
@@ -96,13 +90,13 @@ h2 {
   width: 20rem;
   height: 20rem;
   float: left;
-  margin-top: -5rem;
+  margin-top: -10rem;
 }
 .seashell2 {
   width: 20rem;
   height: 20rem;
   float: right;
-  margin-top: -15rem;
+  margin-top: -10rem;
 }
 #titles {
   position: static;
