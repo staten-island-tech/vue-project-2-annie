@@ -95,14 +95,12 @@ h2 {
 .seashell1 {
   width: 20rem;
   height: 20rem;
-  float: left;
-  margin-top: -5rem;
+ 
 }
 .seashell2 {
   width: 20rem;
   height: 20rem;
-  float: right;
-  margin-top: -15rem;
+ 
 }
 #titles {
   position: static;
