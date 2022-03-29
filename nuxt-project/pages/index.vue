@@ -1,5 +1,9 @@
 <template>
   <div>
+    <body
+      id="background"
+      background="https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg"
+    />
     <h1 id="header">Beach Please</h1>
     <div id="titles">
       <div class="shells">
@@ -47,6 +51,7 @@ html,
   font-size: 62.5%;
   box-sizing: border-box;
   background: var(--bg-blue);
+  background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg");
   font-family: "Readex Pro", sans-serif;
 }
 
@@ -85,6 +90,9 @@ h2 {
   color: var(--black);
   font-size: var(--h2);
   text-align: center;
+}
+#background {
+  position: absolute;
 }
 .seashell1 {
   width: 20rem;
