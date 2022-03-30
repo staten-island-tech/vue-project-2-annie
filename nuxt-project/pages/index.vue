@@ -1,9 +1,5 @@
 <template>
   <div>
-    <body
-      id="background"
-      background="https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg"
-    />
     <h1 id="header">Beach Please</h1>
     <div id="titles">
       <div class="shells">
