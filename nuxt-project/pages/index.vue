@@ -56,24 +56,6 @@ html,
   font-family: "Readex Pro", sans-serif;
 }
 
-:root {
-  --bg-blue: #f5f6fa;
-  --dark-blue: #0c5aaf;
-  --light-blue: #a2ccf7;
-  --bg-wave: #52b3f3;
-  --mid-wave: #4d88c8;
-  --fr-wave: #0099ff;
-  --footer: #ffffff;
-  --black: #000000;
-  --white: #0690ff;
-
-  --h1: 15rem;
-  --h2: 8rem;
-  --h3: 1.5rem;
-
-  --primary: var(--bg-blue);
-}
-
 h1 {
   color: var(--bg-blue);
   font-size: var(--h1);
