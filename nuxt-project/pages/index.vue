@@ -13,6 +13,7 @@
           <img class="" src="../images/Activities/Beach Zumba.jpg" />
           <img class="" src="../images/Activities/Sand art.jpg" />
           <img class="" src="../images/Activities/Frisbee.jpg" />
+          <img class="" src="">
         </div>
         <div class="ora">
           <h2 class="names">Ora Beach</h2>
