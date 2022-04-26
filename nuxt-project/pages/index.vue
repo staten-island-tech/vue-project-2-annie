@@ -6,7 +6,6 @@
         <div class="shells">
           <img class="seashell1" src="../images/seashell.PNG" />
           <img class="seashell2" src="../images/seashell.PNG" />
-          <img class="" src="">
         </div>
         <div class="cham">
           <h2 class="names">Champagne Beach</h2>
