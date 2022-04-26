@@ -75,6 +75,9 @@
             <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
           </div>
         </div>
+        <div>
+          <img class="" src="../images/Revs/Info.jpg" />
+        </div>
       </div>
     </div>
   </body>
