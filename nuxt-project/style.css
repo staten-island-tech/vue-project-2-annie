@@ -104,6 +104,7 @@ h2 {
   margin: 11rem;
   width: 40rem;
   height: 40rem;
+  object-fit: cover;
 }
 .activities {
   color: var(--white);

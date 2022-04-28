@@ -75,9 +75,12 @@
           <img class="bigpics" src="../images/Beaches/ri.png" />
           <h2 class="activities">Activities</h2>
           <div>
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
+            <img
+              class="actpics"
+              src="../images/Activities/Flamingo Watching.jpg"
+            />
+            <img class="actpics" src="../images/Activities/Jeep Safari.jpg" />
+            <img class="actpics" src="../images/Activities/Beach Reading.jpg" />
           </div>
           <h2 class="reviews">Reviews</h2>
           <img
