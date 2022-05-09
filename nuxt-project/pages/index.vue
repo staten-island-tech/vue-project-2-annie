@@ -10,84 +10,80 @@
         <div class="cham">
           <h2 class="names" id="cb">Champagne Beach</h2>
           <img class="bigpics" src="../images/Beaches/champagne beach.jpg" />
-          <h2 class="activities">Activities</h2>
-          <div>
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
-            <img class="actpics" src="../images/Activities/Sand art.jpg" />
-            <img class="actpics" src="../images/Activities/Frisbee.jpg" />
-          </div>
-          <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
+          <img class="sand" src="../images/Beaches/sand.jpg" />
         </div>
-        <div class="ora" id="ob">
-          <h2 class="names">Ora Beach</h2>
-          <img class="bigpics" src="../images/Beaches/ora beach.jpg" />
-          <h2 class="activities">Activities</h2>
-          <div>
-            <img
-              class="actpics"
-              src="../images/Activities/Castle construction.jpg"
-            />
-            <img
-              class="actpics"
-              src="../images/Activities/Jewelry Making.jpg"
-            />
-            <img class="actpics" src="../images/Activities/Water Polo.jpg" />
-          </div>
-          <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Ora beach food.jpg" />
+        <h2 class="activities">Activities</h2>
+        <div>
+          <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
+          <img class="actpics" src="../images/Activities/Sand art.jpg" />
+          <img class="actpics" src="../images/Activities/Frisbee.jpg" />
         </div>
-        <div class="stars">
-          <h2 class="names" id="sos">Sea of Stars</h2>
-          <img class="bigpics" src="../images/Beaches/maldives.jpg" />
-          <h2 class="activities">Activities</h2>
-          <div>
-            <img
-              class="actpics"
-              src="../images/Activities/Beach Bonfires.jpg"
-            />
-            <img
-              class="actpics"
-              src="../images/Activities/Sea star gazing.jpg"
-            />
-            <img class="actpics" src="../images/Activities/Fishing.jpg" />
-          </div>
-          <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Sea of Stars food.jpg" />
-        </div>
-        <div class="copa">
-          <h2 class="names" id="c">Copacabana</h2>
-          <img class="bigpics" src="../images/Beaches/copacabana.jpg" />
-          <h2 class="activities">Activities</h2>
-          <div>
-            <img
-              class="actpics"
-              src="../images/Activities/Beach volleyball.jpg"
-            />
-            <img class="actpics" src="../images/Activities/Snorkling.jpg" />
-            <img class="actpics" src="../images/Activities/Surfing.jpg" />
-          </div>
-          <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Copacabana food.jpg" />
-        </div>
-        <div class="rena">
-          <h2 class="names" id="ri">Renaissance Island</h2>
-          <img class="bigpics" src="../images/Beaches/ri.png" />
-          <h2 class="activities">Activities</h2>
-          <div>
-            <img
-              class="actpics"
-              src="../images/Activities/Flamingo Watching.jpg"
-            />
-            <img class="actpics" src="../images/Activities/Jeep Safari.jpg" />
-            <img class="actpics" src="../images/Activities/Beach Reading.jpg" />
-          </div>
-          <h2 class="reviews">Reviews</h2>
+        <h2 class="reviews">Reviews</h2>
+        <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
+      </div>
+      <div class="ora" id="ob">
+        <h2 class="names">Ora Beach</h2>
+        <img class="bigpics" src="../images/Beaches/ora beach.jpg" />
+        <img class="sand" src="../images/Beaches/sand.jpg" />
+        <h2 class="activities">Activities</h2>
+        <div>
           <img
-            class="foodpics"
-            src="../images/Food/Renaissance Island food.jpg"
+            class="actpics"
+            src="../images/Activities/Castle construction.jpg"
           />
+          <img class="actpics" src="../images/Activities/Jewelry Making.jpg" />
+          <img class="actpics" src="../images/Activities/Water Polo.jpg" />
         </div>
+        <h2 class="reviews">Reviews</h2>
+        <img class="foodpics" src="../images/Food/Ora beach food.jpg" />
+      </div>
+      <div class="stars">
+        <h2 class="names" id="sos">Sea of Stars</h2>
+        <img class="bigpics" src="../images/Beaches/maldives.jpg" />
+        <img class="sand" src="../images/Beaches/sand.jpg" />
+        <h2 class="activities">Activities</h2>
+        <div>
+          <img class="actpics" src="../images/Activities/Beach Bonfires.jpg" />
+          <img class="actpics" src="../images/Activities/Sea star gazing.jpg" />
+          <img class="actpics" src="../images/Activities/Fishing.jpg" />
+        </div>
+        <h2 class="reviews">Reviews</h2>
+        <img class="foodpics" src="../images/Food/Sea of Stars food.jpg" />
+      </div>
+      <div class="copa">
+        <h2 class="names" id="c">Copacabana</h2>
+        <img class="bigpics" src="../images/Beaches/copacabana.jpg" />
+        <img class="sand" src="../images/Beaches/sand.jpg" />
+        <h2 class="activities">Activities</h2>
+        <div>
+          <img
+            class="actpics"
+            src="../images/Activities/Beach volleyball.jpg"
+          />
+          <img class="actpics" src="../images/Activities/Snorkling.jpg" />
+          <img class="actpics" src="../images/Activities/Surfing.jpg" />
+        </div>
+        <h2 class="reviews">Reviews</h2>
+        <img class="foodpics" src="../images/Food/Copacabana food.jpg" />
+      </div>
+      <div class="rena">
+        <h2 class="names" id="ri">Renaissance Island</h2>
+        <img class="bigpics" src="../images/Beaches/ri.png" />
+        <img class="sand" src="../images/Beaches/sand.jpg" />
+        <h2 class="activities">Activities</h2>
+        <div>
+          <img
+            class="actpics"
+            src="../images/Activities/Flamingo Watching.jpg"
+          />
+          <img class="actpics" src="../images/Activities/Jeep Safari.jpg" />
+          <img class="actpics" src="../images/Activities/Beach Reading.jpg" />
+        </div>
+        <h2 class="reviews">Reviews</h2>
+        <img
+          class="foodpics"
+          src="../images/Food/Renaissance Island food.jpg"
+        />
       </div>
     </div>
   </body>
@@ -98,7 +94,7 @@ import gsap from "gsap";
 
 export default {
   name: "IndexPage",
-  setup() {
+  /*   setup() {
     const beforeEnter = (el) => {
       console.log("before enter - set initial state");
       el.style.transform = "translateY(-60px)";
@@ -112,7 +108,7 @@ export default {
         opacity: 1,
       });
     };
-  },
+  }, */
 };
 </script>
 
