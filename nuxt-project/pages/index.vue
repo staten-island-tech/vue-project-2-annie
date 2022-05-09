@@ -12,9 +12,12 @@
           <img class="bigpics" src="../images/Beaches/champagne beach.jpg" />
           <h2 class="activities">Activities</h2>
           <div>
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" />
+            <img class="actpics" src="../images/Activities/Beach zumba.jpg" alt=""/>
+            <h3 class="actdesc">Beach Zumba</h3>
             <img class="actpics" src="../images/Activities/Sand art.jpg" />
+            <h3 class="actdesc">Sand Art</h3>
             <img class="actpics" src="../images/Activities/Frisbee.jpg" />
+            <h3></h3>
           </div>
           <h2 class="reviews">Reviews</h2>
           <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
@@ -28,6 +31,7 @@
               class="actpics"
               src="../images/Activities/Castle construction.jpg"
             />
+            <h3></h3>
             <img
               class="actpics"
               src="../images/Activities/Jewelry Making.jpg"
@@ -60,12 +64,12 @@
           <img class="bigpics" src="../images/Beaches/copacabana.jpg" />
           <h2 class="activities">Activities</h2>
           <div>
-            <img
-              class="actpics"
-              src="../images/Activities/Beach volleyball.jpg"
-            />
+            <img class="actpics" src="../images/Activities/Beach volleyball.jpg" />
+            <h3 class="actdesc">Beach Volleyball</h3>
             <img class="actpics" src="../images/Activities/Snorkling.jpg" />
+            <h3 class="actdesc">Snorkling</h3>
             <img class="actpics" src="../images/Activities/Surfing.jpg" />
+            <h3 class="actdesc">Surfing</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
           <img class="foodpics" src="../images/Food/Copacabana food.jpg" />
@@ -79,8 +83,11 @@
               class="actpics"
               src="../images/Activities/Flamingo Watching.jpg"
             />
+            <h3 class="actdesc">Flamingo Watching</h3>
             <img class="actpics" src="../images/Activities/Jeep Safari.jpg" />
+            <h3 class="actdesc">Jeep Safari</h3>
             <img class="actpics" src="../images/Activities/Beach Reading.jpg" />
+            <h3 class="actdesc">Beach Reading</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
           <img
