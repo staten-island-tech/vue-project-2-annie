@@ -1,7 +1,7 @@
 <template>
   <body id="body">
     <div>
-      <h1 @before-enter="beforeEnter" @enter="enter">Beach Please</h1>
+      <h1 id="maintitle">Beach Please</h1>
       <div id="titles">
         <div class="shells">
           <img class="seashell1" src="../images/misc./seashell.PNG" />
@@ -94,21 +94,14 @@ import gsap from "gsap";
 
 export default {
   name: "IndexPage",
-  /*   setup() {
-    const beforeEnter = (el) => {
-      console.log("before enter - set initial state");
-      el.style.transform = "translateY(-60px)";
-      el.style.opacity = 0;
-    };
-    const enter = (el) => {
-      console.log("starting to enter - make transition");
-      gsap.to(el, {
-        duration: 1,
-        y: 0,
-        opacity: 1,
-      });
-    };
-  }, */
+  mounted: function () {
+    this.startAnimations();
+  },
+  methods: {
+    startAnimations: function () {
+      gsap.to("#maintitle", { duration: 2, color: "black" });
+    },
+  },
 };
 </script>
 
