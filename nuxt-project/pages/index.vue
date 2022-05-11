@@ -17,7 +17,7 @@
             <img class="actpics" src="../images/Activities/Sand art.jpg" />
             <h3 class="actdesc">Sand Art</h3>
             <img class="actpics" src="../images/Activities/Frisbee.jpg" />
-            <h3></h3>
+            <h3 class="actdesc">Frisbee</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
           <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
@@ -31,12 +31,14 @@
               class="actpics"
               src="../images/Activities/Castle construction.jpg"
             />
-            <h3></h3>
+            <h3 class="actdesc">Castle Construction</h3>
             <img
               class="actpics"
               src="../images/Activities/Jewelry Making.jpg"
             />
+            <h3 class="actdesc">Jewelry Making</h3>
             <img class="actpics" src="../images/Activities/Water Polo.jpg" />
+            <h3 class="actdesc">Water Polo</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
           <img class="foodpics" src="../images/Food/Ora beach food.jpg" />
@@ -50,15 +52,18 @@
               class="actpics"
               src="../images/Activities/Beach Bonfires.jpg"
             />
+            <h3 class="actdesc">Beach Bonfires</h3>
             <img
               class="actpics"
               src="../images/Activities/Sea star gazing.jpg"
             />
+            <h3 class="actdesc">Sea Star Gazing</h3>
             <img class="actpics" src="../images/Activities/Fishing.jpg" />
           </div>
           <h2 class="reviews">Reviews</h2>
           <img class="foodpics" src="../images/Food/Sea of Stars food.jpg" />
         </div>
+        <h3 class=""></h3>
         <div class="copa">
           <h2 class="names" id="c">Copacabana</h2>
           <img class="bigpics" src="../images/Beaches/copacabana.jpg" />
