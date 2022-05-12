@@ -33,7 +33,7 @@ html,
   background-size: contain;
 }
 h1 {
-  color: var(--bg-blue);
+  color: var(--dark-blue);
   font-size: var(--h1);
   background: var(--dark-blue);
   text-align: center;
