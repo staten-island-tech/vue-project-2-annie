@@ -33,7 +33,7 @@ html,
   background-size: contain;
 }
 h1 {
-  color: var(--bg-blue);
+  color: var(--dark-blue);
   font-size: var(--h1);
   background: var(--dark-blue);
   text-align: center;
@@ -101,13 +101,16 @@ h2 {
   margin-right: auto;
 }
 .actpics {
-  margin: 11rem;
+  margin-top: 5rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
   width: 40rem;
   height: 40rem;
   object-fit: cover;
 }
 .activities {
   color: var(--white);
+  margin-top: -63rem;
 }
 .reviews {
   color: var(--dark-blue);
@@ -129,4 +132,12 @@ h2 {
 h3 {
   font-size: var(--h3);
   text-align: center;
+}
+  margin-top: 10rem;
+}
+.sand {
+  width: 100%;
+  height: 63rem;
+  object-fit: cover;
+  margin-top: 10rem;
 }
