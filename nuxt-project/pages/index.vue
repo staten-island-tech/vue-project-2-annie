@@ -4,13 +4,24 @@
       <h1 id="maintitle">Beach Please</h1>
       <div id="gallery">
         <div id="titles">
-          <div class="shells">
+          <!--           <div class="shells">
             <img class="seashell1" src="../images/misc./seashell.PNG" />
             <img class="seashell2" src="../images/misc./seashell.PNG" />
-          </div>
+          </div> -->
           <div class="cham">
             <h2 class="names" id="cb">Champagne Beach</h2>
-            <img class="bigpics" src="../images/Beaches/champagne beach.jpg" />
+            <div class="firsttwopics">
+              <img
+                id="chamimg"
+                class="bigpics"
+                src="../images/Beaches/champagne beach.jpg"
+              />
+              <img
+                id="chamfood"
+                class="foodpics"
+                src="../images/Food/Champagne beach food.jpg"
+              />
+            </div>
             <img class="sand" src="../images/Beaches/sand.jpg" />
           </div>
           <h2 class="activities">Activities</h2>
@@ -20,7 +31,6 @@
             <img class="actpics" src="../images/Activities/Frisbee.jpg" />
           </div>
           <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
         </div>
         <div class="ora" id="ob">
           <h2 class="names">Ora Beach</h2>
