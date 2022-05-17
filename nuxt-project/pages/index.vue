@@ -10,7 +10,7 @@
           </div> -->
           <div class="cham">
             <h2 class="names" id="cb">Champagne Beach</h2>
-            <div class="firsttwopics">
+            <div>
               <img
                 id="chamimg"
                 class="bigpics"
@@ -34,22 +34,30 @@
         </div>
         <div class="ora" id="ob">
           <h2 class="names">Ora Beach</h2>
-          <img class="bigpics" src="../images/Beaches/ora beach.jpg" />
-          <img class="sand" src="../images/Beaches/sand.jpg" />
-          <h2 class="activities">Activities</h2>
           <div>
             <img
-              class="actpics"
+              class="bigpics"
+              id="oraimg"
+              src="../images/Beaches/ora beach.jpg"
+            />
+            <img id="sand2" class="sand" src="https://bit.ly/3NhBo1R" />
+            <h2 class="activities">Activities</h2>
+            <img
+              class="actpics2"
               src="../images/Activities/Castle construction.jpg"
             />
             <img
-              class="actpics"
+              class="actpics2"
               src="../images/Activities/Jewelry Making.jpg"
             />
-            <img class="actpics" src="../images/Activities/Water Polo.jpg" />
+            <img class="actpics2" src="../images/Activities/Water Polo.jpg" />
           </div>
           <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Ora beach food.jpg" />
+          <img
+            class="foodpics"
+            id="orafood"
+            src="../images/Food/Ora beach food.jpg"
+          />
         </div>
         <div class="stars">
           <h2 class="names" id="sos">Sea of Stars</h2>
@@ -120,8 +128,9 @@ export default {
   },
   methods: {
     startAnimations: function () {
+      const tl = gsap.timeline({ delay: 0.5 });
       gsap.to("#maintitle", { duration: 1, color: "white" });
-      gsap.from("#gallery", { opacity: 0, duration: 3 });
+      tl.from("#gallery", { opacity: 0, duration: 3 });
     },
   },
 };

@@ -127,3 +127,24 @@ h2 {
 #chamfood{
   float: right;
 }
+#oraimg{
+  margin-top: 70rem;
+  float: left;
+  width: 65%;
+}
+#sand2{
+  width: 35%;
+  height: 120rem;
+  float:right;
+  margin-top: 70rem;
+}
+#orafood{
+  float: left;
+  width: 65%;
+}
+.actpics2{
+  width: 40rem;
+  height: 40rem;
+  float: right;
+  margin-top:-10rem;
+}
