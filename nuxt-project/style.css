@@ -121,12 +121,14 @@ h2 {
   height: 63rem;
   object-fit: cover;
 }
+
 #chamimg{
   float: left;
 }
 #chamfood{
   float: right;
 }
+
 #oraimg{
   margin-top: 70rem;
   float: right;
@@ -163,6 +165,53 @@ h2 {
   position: absolute;
   color: var(--black);
 }
+
+#sosimg{
+  margin-top: 0rem;
+  float: left;
+}
+#sosfood{
+  margin-top: 0rem;
+  float: right;
+}
+
+#cbimg{
+  margin-top: 70rem;
+  float: left;
+  width: 65%;
+}
+#sand4{
+  width: 35%;
+  height: 120rem;
+  float: right;
+  margin-top: 70rem;
+  position: relative;
+}
+#cbfood{
+  margin-top: 0rem;
+  float: left;
+  width: 65%;
+}
+.actpics4{
+  margin-top: 3rem;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+#cbacts{
+  margin-top: 85rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 143rem;
+}
+#act4{
+  margin-top: 75rem;
+  margin-left: 141rem;
+  position: absolute;
+  color: var(--black);
+}
+
 #riimg{
   margin-top: 0rem;
   float: right;
