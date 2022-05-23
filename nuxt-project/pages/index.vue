@@ -4,13 +4,24 @@
       <h1 id="maintitle">Beach Please</h1>
       <div id="gallery">
         <div id="titles">
-          <div class="shells">
+          <!--           <div class="shells">
             <img class="seashell1" src="../images/misc./seashell.PNG" />
             <img class="seashell2" src="../images/misc./seashell.PNG" />
-          </div>
+          </div> -->
           <div class="cham">
             <h2 class="names" id="cb">Champagne Beach</h2>
-            <img class="bigpics" src="../images/Beaches/champagne beach.jpg" />
+            <div>
+              <img
+                id="chamimg"
+                class="bigpics"
+                src="../images/Beaches/champagne beach.jpg"
+              />
+              <img
+                id="chamfood"
+                class="foodpics"
+                src="../images/Food/Champagne beach food.jpg"
+              />
+            </div>
             <img class="sand" src="../images/Beaches/sand.jpg" />
           </div>
           <h2 class="activities">Activities</h2>
@@ -23,29 +34,35 @@
             <h3 class="actdesc">Frisbee</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Champagne beach food.jpg" />
         </div>
         <div class="ora" id="ob">
           <h2 class="names">Ora Beach</h2>
-          <img class="bigpics" src="../images/Beaches/ora beach.jpg" />
-          <img class="sand" src="../images/Beaches/sand.jpg" />
-          <h2 class="activities">Activities</h2>
           <div>
+            <img id="sand2" class="sand" src="https://bit.ly/3NhBo1R" />
             <img
-              class="actpics"
-              src="../images/Activities/Castle construction.jpg"
+              class="bigpics"
+              id="oraimg"
+              src="../images/Beaches/ora beach.jpg"
             />
-            <h3 class="actdesc">Castle Construction</h3>
-            <img
-              class="actpics"
-              src="../images/Activities/Jewelry Making.jpg"
-            />
-            <h3 class="actdesc">Jewelry Making</h3>
-            <img class="actpics" src="../images/Activities/Water Polo.jpg" />
-            <h3 class="actdesc">Water Polo</h3>
+            <h2 id="act2" class="activities">Activities</h2>
+            <div id="oraacts">
+              <img class="actpics2" src="../images/Activities/Water Polo.jpg" />
+              <img
+                class="actpics2"
+                src="../images/Activities/Jewelry Making.jpg"
+              />
+              <img
+                class="actpics2"
+                src="../images/Activities/Castle construction.jpg"
+              />
+            </div>
           </div>
+          <img
+            class="foodpics"
+            id="orafood"
+            src="../images/Food/Ora beach food.jpg"
+          />
           <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Ora beach food.jpg" />
         </div>
         <div class="stars">
           <h2 class="names" id="sos">Sea of Stars</h2>
@@ -87,7 +104,6 @@
         </div>
         <div class="rena">
           <h2 class="names" id="ri">Renaissance Island</h2>
-          <img class="bigpics" src="../images/Beaches/ri.png" />
           <img class="sand" src="../images/Beaches/sand.jpg" />
           <h2 class="activities">Activities</h2>
           <div>
@@ -101,11 +117,13 @@
             <img class="actpics" src="../images/Activities/Beach Reading.jpg" />
             <h3 class="actdesc">Beach Reading</h3>
           </div>
-          <h2 class="reviews">Reviews</h2>
           <img
+            id="rifood"
             class="foodpics"
             src="../images/Food/Renaissance Island food.jpg"
           />
+          <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
+          <h2 class="reviews">Reviews</h2>
         </div>
         <div>
           <img class="" src="../images/Revs/Info.jpg" />
@@ -125,8 +143,9 @@ export default {
   },
   methods: {
     startAnimations: function () {
+      const tl = gsap.timeline({ delay: 0.5 });
       gsap.to("#maintitle", { duration: 1, color: "white" });
-      gsap.from("#gallery", { opacity: 0, duration: 3 });
+      tl.from("#gallery", { opacity: 0, duration: 3 });
     },
   },
 };
