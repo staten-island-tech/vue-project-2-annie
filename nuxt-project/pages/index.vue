@@ -32,7 +32,7 @@
             <h2 class="reviews">Reviews</h2>
           </div>
           <div class="ora" id="ob">
-            <h2 class="names">Ora Beach</h2>
+            <h2 id="obname" class="names">Ora Beach</h2>
             <div>
               <img id="sand2" class="sand" src="https://bit.ly/3NhBo1R" />
               <img
@@ -77,23 +77,27 @@
                 src="../images/Food/Sea of Stars food.jpg"
               />
             </div>
-            <img class="sand" src="../images/Beaches/sand.jpg" />
-            <h2 class="activities">Activities</h2>
-            <div>
-              <img
-                class="actpics"
-                src="../images/Activities/Beach Bonfires.jpg"
-              />
-              <img
-                class="actpics"
-                src="../images/Activities/Sea star gazing.jpg"
-              />
-              <img class="actpics" src="../images/Activities/Fishing.jpg" />
-            </div>
+            <img id="sand3" class="sand" src="../images/Beaches/sand.jpg" />
+            <h2 id="act3" class="activities">Activities</h2>
+            <img
+              id="fish"
+              class="actpics"
+              src="../images/Activities/Fishing.jpg"
+            />
+            <img
+              class="actpics"
+              id="stargaze"
+              src="../images/Activities/Sea star gazing.jpg"
+            />
+            <img
+              class="actpics"
+              id="bonfire"
+              src="../images/Activities/Beach Bonfires.jpg"
+            />
             <h2 class="reviews">Reviews</h2>
           </div>
           <div class="copa" id="cb">
-            <h2 class="names">Copacabana</h2>
+            <h2 id="cbname" class="names">Copacabana</h2>
             <div>
               <img id="sand4" class="sand" src="https://bit.ly/3NhBo1R" />
               <img
@@ -122,7 +126,7 @@
             <h2 class="reviews">Reviews</h2>
           </div>
           <div class="rena">
-            <h2 class="names" id="ri">Renaissance Island</h2>
+            <h2 id="riname" class="names">Renaissance Island</h2>
             <img class="sand" src="../images/Beaches/sand.jpg" />
             <h2 class="activities">Activities</h2>
             <div>
