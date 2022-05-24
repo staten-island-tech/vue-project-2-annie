@@ -14,23 +14,23 @@
               <img
                 id="chamimg"
                 class="bigpics"
-                src="../images/Beaches/champagne beach.jpg"
+                src="../images/Beaches/champagne beach.jpg" alt ="Champagne Beach"
               />
               <img
                 id="chamfood"
                 class="foodpics"
-                src="../images/Food/Champagne beach food.jpg"
+                src="../images/Food/Champagne beach food.jpg" alt="Champagne beach food"
               />
             </div>
-            <img class="sand" src="../images/Beaches/sand.jpg" />
+            <img class="sand" src="../images/Beaches/sand.jpg" alt="Image of sand"/>
           </div>
           <h2 class="activities">Activities</h2>
           <div>
-            <img class="actpics" src="../images/Activities/Beach zumba.jpg" alt=""/>
+            <img class="actpics" src="../images/Activities/Beach zumba.jpg" alt="Beach zumba"/>
             <h3 class="actdesc">Beach Zumba</h3>
-            <img class="actpics" src="../images/Activities/Sand art.jpg" />
+            <img class="actpics" src="../images/Activities/Sand art.jpg" alt="Sand art"/>
             <h3 class="actdesc">Sand Art</h3>
-            <img class="actpics" src="../images/Activities/Frisbee.jpg" />
+            <img class="actpics" src="../images/Activities/Frisbee.jpg" alt="Frisbee"/>
             <h3 class="actdesc">Frisbee</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
@@ -38,22 +38,25 @@
         <div class="ora" id="ob">
           <h2 class="names">Ora Beach</h2>
           <div>
-            <img id="sand2" class="sand" src="https://bit.ly/3NhBo1R" />
+            <img id="sand2" class="sand" src="https://bit.ly/3NhBo1R" alt="sand"/>
             <img
               class="bigpics"
               id="oraimg"
               src="../images/Beaches/ora beach.jpg"
+              alt="Ora Beach"
             />
             <h2 id="act2" class="activities">Activities</h2>
             <div id="oraacts">
-              <img class="actpics2" src="../images/Activities/Water Polo.jpg" />
+              <img class="actpics2" src="../images/Activities/Water Polo.jpg" alt="Water Polo"/>
               <img
                 class="actpics2"
                 src="../images/Activities/Jewelry Making.jpg"
+                alt="Jewelry Making"
               />
               <img
                 class="actpics2"
                 src="../images/Activities/Castle construction.jpg"
+                alt="Castle Construction"
               />
             </div>
           </div>
@@ -61,42 +64,44 @@
             class="foodpics"
             id="orafood"
             src="../images/Food/Ora beach food.jpg"
+            alt="Ora beach food"
           />
           <h2 class="reviews">Reviews</h2>
         </div>
         <div class="stars">
           <h2 class="names" id="sos">Sea of Stars</h2>
-          <img class="bigpics" src="../images/Beaches/maldives.jpg" />
-          <img class="sand" src="../images/Beaches/sand.jpg" />
+          <img class="bigpics" src="../images/Beaches/maldives.jpg" alt="Maldive beach"/>
+          <img class="sand" src="../images/Beaches/sand.jpg" alt="Sand"/>
           <h2 class="activities">Activities</h2>
           <div>
             <img
               class="actpics"
               src="../images/Activities/Beach Bonfires.jpg"
+              alt="Image of beach bonfire"
             />
             <h3 class="actdesc">Beach Bonfires</h3>
             <img
               class="actpics"
-              src="../images/Activities/Sea star gazing.jpg"
+              src="../images/Activities/Sea star gazing.jpg" alt="Image of sea star gazing"
             />
             <h3 class="actdesc">Sea Star Gazing</h3>
-            <img class="actpics" src="../images/Activities/Fishing.jpg" />
+            <img class="actpics" src="../images/Activities/Fishing.jpg" alt="Image of fishing"/>
           </div>
           <h2 class="reviews">Reviews</h2>
-          <img class="foodpics" src="../images/Food/Sea of Stars food.jpg" />
+          <img class="foodpics" src="../images/Food/Sea of Stars food.jpg" alt="Image of sea of stars food"/>
         </div>
         <h3 class=""></h3>
         <div class="copa">
           <h2 class="names" id="c">Copacabana</h2>
-          <img class="bigpics" src="../images/Beaches/copacabana.jpg" />
-          <img class="sand" src="../images/Beaches/sand.jpg" />
+          <img class="bigpics" src="../images/Beaches/copacabana.jpg" alt="Image of copacabana beach"/>
+          <img class="sand" src="../images/Beaches/sand.jpg" alt="Image of sand"/>
           <h2 class="activities">Activities</h2>
           <div>
-            <img class="actpics" src="../images/Activities/Beach volleyball.jpg" />
+            <img class="actpics" src="../images/Activities/Beach volleyball.jpg" alt="Beach volleyball"/>
             <h3 class="actdesc">Beach Volleyball</h3>
-            <img class="actpics" src="../images/Activities/Snorkling.jpg" />
+            <img class="actpics" src="../images/Activities/Snorkling.jpg" alt="Image of snorkling"/>
             <h3 class="actdesc">Snorkling</h3>
-            <img class="actpics" src="../images/Activities/Surfing.jpg" />
+            <img class="actpics" src="../images/Activities/Surfing.jpg" alt="Image of surfing"/>
             <h3 class="actdesc">Surfing</h3>
           </div>
           <h2 class="reviews">Reviews</h2>
