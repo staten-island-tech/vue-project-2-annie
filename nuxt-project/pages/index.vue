@@ -4,10 +4,6 @@
       <h1 id="maintitle">Beach Please</h1>
       <div id="gallery">
         <div id="titles">
-          <!--           <div class="shells">
-            <img class="seashell1" src="../images/misc./seashell.PNG" />
-            <img class="seashell2" src="../images/misc./seashell.PNG" />
-          </div> -->
           <div class="cham">
             <h2 class="names" id="cb">Champagne Beach</h2>
             <div>
@@ -30,6 +26,10 @@
               <img class="actpics" src="../images/Activities/Frisbee.jpg" />
             </div>
             <h2 class="reviews">Reviews</h2>
+            <img src="../images/Revs/Cham Rev 1.jpg" alt="" />
+            <img src="../images/Revs/Cham Rev 2.jpg" alt="" />
+            <img src="../images/Revs/Cham Rev 3.jpg" alt="" />
+            <img src="../images/Revs/Cham Rev 4.jpg" alt="" />
           </div>
           <div class="ora" id="ob">
             <h2 id="obname" class="names">Ora Beach</h2>
@@ -62,6 +62,10 @@
               src="../images/Food/Ora beach food.jpg"
             />
             <h2 class="reviews">Reviews</h2>
+            <img src="../images/Revs/Ora Rev 1.jpg" alt="" />
+            <img src="../images/Revs/Ora Rev 2.jpg" alt="" />
+            <img src="../images/Revs/Ora Rev 3.jpg" alt="" />
+            <img src="../images/Revs/Ora Rev 4.jpg" alt="" />
           </div>
           <div class="stars">
             <h2 class="names" id="sos">Sea of Stars</h2>
@@ -95,6 +99,10 @@
               src="../images/Activities/Beach Bonfires.jpg"
             />
             <h2 class="reviews">Reviews</h2>
+            <img src="../images/Revs/SOS Rev 1.jpg" alt="" />
+            <img src="../images/Revs/SOS Rev 2.jpg" alt="" />
+            <img src="../images/Revs/SOS Rev 3.jpg" alt="" />
+            <img src="../images/Revs/SOS Rev 4.jpg" alt="" />
           </div>
           <div class="copa" id="cb">
             <h2 id="cbname" class="names">Copacabana</h2>
@@ -124,6 +132,10 @@
               src="../images/Food/Copacabana food.jpg"
             />
             <h2 class="reviews">Reviews</h2>
+            <img src="../images/Revs/Cop Rev 1.jpg" alt="" />
+            <img src="../images/Revs/Cop Rev 2.jpg" alt="" />
+            <img src="../images/Revs/Cop Rev 3.jpg" alt="" />
+            <img src="../images/Revs/Cop Rev 4.jpg" alt="" />
           </div>
           <div class="rena">
             <h2 id="riname" class="names">Renaissance Island</h2>
@@ -147,6 +159,10 @@
             />
             <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
             <h2 class="reviews">Reviews</h2>
+            <img src="../images/Revs/RI Rev 1.jpg" alt="" />
+            <img src="../images/Revs/RI Rev 2.jpg" alt="" />
+            <img src="../images/Revs/RI Rev 3.jpg" alt="" />
+            <img src="../images/Revs/RI Rev 4.jpg" alt="" />
           </div>
         </div>
       </div>
