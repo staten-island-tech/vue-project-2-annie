@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap");
+
 body,
 html,
 * {
@@ -22,8 +23,10 @@ html,
   --footer: #0690ff;
 
   --h1: 15rem;
-  --h2: 8rem;
-  --h3: 1.5rem;
+  --h2: 10rem;
+  --h3: 8rem;
+  --h4: 5rem;
+  --p: 3.5rem;
 
   --primary: var(--bg-blue);
 }
@@ -32,6 +35,7 @@ html,
   background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg");
   background-size: contain;
 }
+
 h1 {
   color: var(--dark-blue);
   font-size: var(--h1);
@@ -45,9 +49,35 @@ h1 {
   margin-left: 5.5%;
   margin-top: 8rem;
 }
+
 h2 {
   font-size: var(--h2);
   text-align: center;
+}
+
+h3 {
+  font-size: var(--h3);
+  text-align: center;
+}
+
+h4 {
+  font-size: var(--h4);
+  text-align: center;
+  background-color: var(--light-blue);
+  width: 40rem;
+  height: 39rem;
+  border: 1rem solid var(--dark-blue);
+  padding: 2rem;
+  word-wrap: break-word;
+}
+
+p {
+  font-size: var(--p);
+  text-align: center;
+  background-color: var(--light-blue);
+  border: 1rem solid var(--dark-blue);
+  padding: 2rem;
+  word-wrap: break-word;
 }
 
 #titles {
@@ -55,10 +85,12 @@ h2 {
   display: inline;
   margin-top: 10rem;
 }
+
 .names {
-  margin-top: 10rem;
+  margin-top: 15rem;
   color: var(--black);
 }
+
 .bigpics {
   margin-top: 5rem;
   width: 50%;
@@ -69,6 +101,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .foodpics {
   margin-top: 10rem;
   width: 50%;
@@ -78,153 +111,312 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+
 .actpics {
-  margin-top: 5rem;
+  margin-top: -50rem;
   margin-left: 11rem;
   margin-right: 11rem;
   width: 40rem;
   height: 40rem;
   object-fit: cover;
 }
+
+.actdesc {
+  margin-top: 5rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .activities {
   color: var(--white);
   margin-top: -63rem;
 }
+
 .reviews {
   color: var(--dark-blue);
   margin-top: 10rem;
 }
+
 .sand {
   width: 100%;
   height: 63rem;
   object-fit: cover;
 }
 
-#chamimg{
+#chamimg {
   float: left;
 }
-#chamfood{
+
+#chamfood {
   float: right;
 }
 
-#obname{
+#obname {
   margin-bottom: -60rem;
 }
-#oraimg{
+
+#oraimg {
   margin-top: 70rem;
   float: right;
   width: 65%;
 }
-#sand2{
+
+#sand2 {
   width: 35%;
   height: 120rem;
   float: left;
   margin-top: 70rem;
   position: relative;
 }
-#orafood{
+
+#orafood {
   margin-top: 0rem;
   float: left;
   width: 65%;
 }
-.actpics2{
+
+.actpics2 {
   margin-top: 3rem;
   width: 30rem;
   height: 30rem;
   object-fit: cover;
 }
-#oraacts{
+
+.actdesc2 {
+  margin-top: 4rem;
+  width: 30rem;
+  height: 29rem;
+  overflow: hidden;
+}
+
+#oraacts {
   margin-top: 85rem;
   position: absolute;
   display: flex;
   flex-direction: column;
   margin-left: 15rem;
 }
-#act2{
+
+#actdiv2 {
+  margin-top: 0rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+#act2 {
   margin-top: 75rem;
   margin-left: 12.5rem;
   position: absolute;
   color: var(--black);
 }
 
-#sosimg{
+#sosimg {
   margin-top: 10rem;
   float: left;
 }
-#sosfood{
+
+#sosfood {
   margin-top: 10rem;
   float: right;
 }
-#act3{
+
+#act3 {
   margin-top: -90rem;
 }
-#sand3{
+
+#sand3 {
   width: 100%;
   height: 93rem;
   object-fit: cover;
 }
-#fish{
+
+#fish {
+  margin-left: 10rem;
+  margin-top: 5rem;
+  width: 40rem;
+  height: 40rem;
   position: absolute;
 }
-#stargaze{
+
+#stargaze {
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  margin-left: 75rem;
+  margin-top: 15rem;
+}
+
+#bonfire {
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  margin-top: 25rem;
+  margin-left: 140rem;
+}
+
+.actdesc3 {
+  margin-top: 5rem;
+  width: 40rem;
+  height: 39rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#fishdesc {
+  margin-left: 10rem;
+  margin-top: 5rem;
+  position: absolute;
+}
+
+#stardesc {
   position: absolute;
   margin-left: 75rem;
   margin-top: 15rem;
 }
-#bonfire{
-  position: relative;
-  margin-top: 30rem;
+
+#firedesc {
+  position: absolute;
+  margin-top: 25rem;
   margin-left: 140rem;
 }
 
-#cbname{
+#sosrev {
+  margin-top: 18rem;
+}
+
+#cbname {
   margin-bottom: -60rem;
 }
-#cbimg{
+
+#cbimg {
   margin-top: 70rem;
   float: left;
   width: 65%;
 }
-#sand4{
+
+#sand4 {
   width: 35%;
   height: 120rem;
   float: right;
   margin-top: 70rem;
   position: relative;
 }
-#cbfood{
+
+#cbfood {
   margin-top: 0rem;
   float: left;
   width: 65%;
 }
-.actpics4{
+
+.actpics4 {
   margin-top: 3rem;
   width: 30rem;
   height: 30rem;
   object-fit: cover;
 }
-#cbacts{
+
+#cbacts {
   margin-top: 85rem;
   position: absolute;
   display: flex;
   flex-direction: column;
   margin-left: 143rem;
 }
-#act4{
+
+#act4 {
   margin-top: 75rem;
   margin-left: 141rem;
   position: absolute;
   color: var(--black);
 }
 
-#riname{
+#riname {
   margin-bottom: 10rem;
 }
-#riimg{
+
+#riimg {
   margin-top: 0rem;
   float: right;
 }
-#rifood{
+
+#rifood {
   margin-top: 0rem;
   float: left;
+}
+
+.actpics5 {
+  margin-top: -40rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
+  width: 40rem;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.actdesc5 {
+  margin-top: 5rem;
+  margin-left: 11rem;
+  margin-right: 11rem;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.rev1 {
+  margin-top: 5rem;
+  width: 70rem;
+  height: 25rem;
+  margin-left: 10rem;
+  margin-right: 20rem;
+  margin-bottom: 10rem;
+}
+
+.rev2 {
+  width: 70rem;
+  height: 25rem;
+}
+
+.rev3 {
+  width: 70rem;
+  height: 25rem;
+  margin-left: 15rem;
+  margin-right: 20rem;
+  margin-bottom: 10rem;
+}
+
+.rev4 {
+  width: 70rem;
+  height: 25rem;
+}
+
+.names:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
+
+.actpics:hover {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.actpics2:hover {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.actpics3:hover {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.actpics4:hover {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.actpics5:hover {
+  opacity: 0;
+  transition: opacity 1s;
 }
