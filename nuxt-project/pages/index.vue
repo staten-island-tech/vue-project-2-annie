@@ -20,7 +20,7 @@
                 alt="Image of Champagne Beach food"
               />
             </div>
-            <img class="sand" src="../images/Beaches/sand.jpg" alt="Sand image"/>
+            <img class="sand" src="../images/Beaches/sand.jpg" alt="Image of sand"/>
             <h3 class="activities">Activities</h3>
             <div>
               <h4 class="actdesc">
@@ -183,14 +183,17 @@
                   <img
                     class="actpics4"
                     src="../images/Activities/Beach volleyball.jpg"
+                    alt="Beach volleyball image"
                   />
                   <img
                     class="actpics4"
                     src="../images/Activities/Snorkling.jpg"
+                    alt="Snorkling image"
                   />
                   <img
                     class="actpics4"
                     src="../images/Activities/Surfing.jpg"
+                    alt="Surfing image"
                   />
                 </div>
               </div>
@@ -199,6 +202,7 @@
               class="foodpics"
               id="cbfood"
               src="../images/Food/Copacabana food.jpg"
+              alt="Image of Copacabana Beach food"
             />
             <h3 class="reviews">Reviews</h3>
             <img class="rev1" src="../images/Revs/Cop Rev 1.jpg" alt="Review #1 on Copacabana Beach" />
@@ -208,7 +212,7 @@
           </div>
           <div class="rena">
             <h2 id="riname" class="names">Renaissance Island</h2>
-            <img class="sand" src="../images/Beaches/sand.jpg" />
+            <img class="sand" src="../images/Beaches/sand.jpg" alt="Image of sand"/>
             <h3 class="activities">Activities</h3>
             <h4 class="actdesc5">
               The island is known for its flamingos, so watch them here!
@@ -223,22 +227,26 @@
               <img
                 class="actpics5"
                 src="../images/Activities/Flamingo Watching.jpg"
+                alt="Flamingo watching image"
               />
               <img
                 class="actpics5"
                 src="../images/Activities/Jeep Safari.jpg"
+                alt="Jeep safari image"
               />
               <img
                 class="actpics5"
                 src="../images/Activities/Beach Reading.jpg"
+                alt="Beach reading image"
               />
             </div>
             <img
               id="rifood"
               class="foodpics"
               src="../images/Food/Renaissance Island food.jpg"
+              alt="Image of Renaissance Island food"
             />
-            <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
+            <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" alt="Image of Renaissance Island"/>
             <h3 class="reviews">Reviews</h3>
             <img class="rev1" src="../images/Revs/RI Rev 1.jpg" alt="Review #1 on Renaissance Island" />
             <img class="rev2" src="../images/Revs/RI Rev 2.jpg" alt="Review #2 on Renaissance Island" />
