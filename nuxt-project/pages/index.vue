@@ -22,7 +22,7 @@
             <h3 class="activities">Activities</h3>
             <div>
               <h4 class="actdesc">
-                Have some fun at Beach Zumba! Dance with your friends all day.
+                Have some fun at Beach Zumba! Dance with your friends.
               </h4>
               <h4 class="actdesc">
                 Play in the sand and make some beautiful sand art!
@@ -114,7 +114,7 @@
                 Fish from the pier or a boat! Teachers are available if needed.
               </h4>
               <h4 class="actdesc3" id="stardesc">
-                Watch the signature glowing "stars" and take in the beauty!
+                Watch the glowing "stars" and take in the beauty!
               </h4>
               <h4 class="actdesc3" id="firedesc">
                 Cozy up to a bonfire on the beach and have a tasty barbecue!
@@ -239,9 +239,6 @@
 </template>
 
 <script>
-import gsap from "gsap";
-/* import ScrollTrigger from "gsap/ScrollTrigger"; */
-
 export default {
   name: "IndexPage",
   mounted: function () {
@@ -251,8 +248,8 @@ export default {
   methods: {
     startAnimations: function () {
       /* gsap.registerPlugin(ScrollTrigger); */
-      const tl = gsap.timeline({ scrollTrigger: "#gallery", delay: 0.5 });
-      gsap.to("#maintitle", { duration: 1, color: "white" });
+      const tl = this.$gsap.timeline({ scrollTrigger: "#gallery", delay: 0.5 });
+      this.$gsap.to("#maintitle", { duration: 1, color: "white" });
       tl.from("#gallery", { opacity: 0, duration: 3 });
     },
     flip: function () {},
