@@ -49,29 +49,7 @@ h2 {
   font-size: var(--h2);
   text-align: center;
 }
-/* #header {
-  background: linear-gradient(
-      0deg,
-      rgba(0, 103, 235, 0.7),
-      rgba(0, 103, 235, 0.7)
-    ),
-    url("../images/spongebob.jpg");
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  //this is actually for the head but idek where it so uh, thats awkward
-} */
-/* .seashell1 {
-  width: 20rem;
-  height: 20rem;
-  float: left;
-  margin-top: -10rem;
-}
-.seashell2 {
-  width: 20rem;
-  height: 20rem;
-  float: right;
-  margin-top: -10rem;
-} */
 #titles {
   position: static;
   display: inline;
@@ -148,6 +126,10 @@ h3 {
 #chamfood{
   float: right;
 }
+
+#obname{
+  margin-bottom: -60rem;
+}
 #oraimg{
   margin-top: 70rem;
   float: right;
@@ -183,6 +165,80 @@ h3 {
   margin-left: 12.5rem;
   position: absolute;
   color: var(--black);
+}
+
+#sosimg{
+  margin-top: 10rem;
+  float: left;
+}
+#sosfood{
+  margin-top: 10rem;
+  float: right;
+}
+#act3{
+  margin-top: -90rem;
+}
+#sand3{
+  width: 100%;
+  height: 93rem;
+  object-fit: cover;
+}
+#fish{
+  position: absolute;
+}
+#stargaze{
+  position: absolute;
+  margin-left: 75rem;
+  margin-top: 15rem;
+}
+#bonfire{
+  position: relative;
+  margin-top: 30rem;
+  margin-left: 140rem;
+}
+
+#cbname{
+  margin-bottom: -60rem;
+}
+#cbimg{
+  margin-top: 70rem;
+  float: left;
+  width: 65%;
+}
+#sand4{
+  width: 35%;
+  height: 120rem;
+  float: right;
+  margin-top: 70rem;
+  position: relative;
+}
+#cbfood{
+  margin-top: 0rem;
+  float: left;
+  width: 65%;
+}
+.actpics4{
+  margin-top: 3rem;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+#cbacts{
+  margin-top: 85rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 143rem;
+}
+#act4{
+  margin-top: 75rem;
+  margin-left: 141rem;
+  position: absolute;
+  color: var(--black);
+}
+
+#riname{
+  margin-bottom: 10rem;
 }
 #riimg{
   margin-top: 0rem;
