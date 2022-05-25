@@ -110,7 +110,6 @@ h2 {
 h3 {
   font-size: var(--h3);
   text-align: center;
-}
   margin-top: 10rem;
 }
 .sand {
@@ -120,131 +119,131 @@ h3 {
   margin-top: 10rem;
 }
 
-#chamimg{
+#chamimg {
   float: left;
 }
-#chamfood{
+#chamfood {
   float: right;
 }
 
-#obname{
+#obname {
   margin-bottom: -60rem;
 }
-#oraimg{
+#oraimg {
   margin-top: 70rem;
   float: right;
   width: 65%;
 }
-#sand2{
+#sand2 {
   width: 35%;
   height: 120rem;
   float: left;
   margin-top: 70rem;
   position: relative;
 }
-#orafood{
+#orafood {
   margin-top: 0rem;
   float: left;
   width: 65%;
 }
-.actpics2{
+.actpics2 {
   margin-top: 3rem;
   width: 30rem;
   height: 30rem;
   object-fit: cover;
 }
-#oraacts{
+#oraacts {
   margin-top: 85rem;
   position: absolute;
   display: flex;
   flex-direction: column;
   margin-left: 15rem;
 }
-#act2{
+#act2 {
   margin-top: 75rem;
   margin-left: 12.5rem;
   position: absolute;
   color: var(--black);
 }
 
-#sosimg{
+#sosimg {
   margin-top: 10rem;
   float: left;
 }
-#sosfood{
+#sosfood {
   margin-top: 10rem;
   float: right;
 }
-#act3{
+#act3 {
   margin-top: -90rem;
 }
-#sand3{
+#sand3 {
   width: 100%;
   height: 93rem;
   object-fit: cover;
 }
-#fish{
+#fish {
   position: absolute;
 }
-#stargaze{
+#stargaze {
   position: absolute;
   margin-left: 75rem;
   margin-top: 15rem;
 }
-#bonfire{
+#bonfire {
   position: relative;
   margin-top: 30rem;
   margin-left: 140rem;
 }
 
-#cbname{
+#cbname {
   margin-bottom: -60rem;
 }
-#cbimg{
+#cbimg {
   margin-top: 70rem;
   float: left;
   width: 65%;
 }
-#sand4{
+#sand4 {
   width: 35%;
   height: 120rem;
   float: right;
   margin-top: 70rem;
   position: relative;
 }
-#cbfood{
+#cbfood {
   margin-top: 0rem;
   float: left;
   width: 65%;
 }
-.actpics4{
+.actpics4 {
   margin-top: 3rem;
   width: 30rem;
   height: 30rem;
   object-fit: cover;
 }
-#cbacts{
+#cbacts {
   margin-top: 85rem;
   position: absolute;
   display: flex;
   flex-direction: column;
   margin-left: 143rem;
 }
-#act4{
+#act4 {
   margin-top: 75rem;
   margin-left: 141rem;
   position: absolute;
   color: var(--black);
 }
 
-#riname{
+#riname {
   margin-bottom: 10rem;
 }
-#riimg{
+#riimg {
   margin-top: 0rem;
   float: right;
 }
-#rifood{
+#rifood {
   margin-top: 0rem;
   float: left;
 }

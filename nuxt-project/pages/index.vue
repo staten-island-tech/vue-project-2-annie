@@ -166,9 +166,6 @@
             <img src="../images/Revs/RI Rev 4.jpg" alt="" />
           </div>
         </div>
-        <div>
-          <img class="" src="../images/Revs/Info.jpg" />
-        </div>
       </div>
     </div>
   </body>
