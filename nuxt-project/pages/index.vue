@@ -192,7 +192,7 @@
                 Fish from the pier or a boat! Teachers are available if needed.
               </h4>
               <h4 class="actdesc3" id="stardesc">
-                Watch the signature glowing "stars" and take in the beauty!
+                Watch the glowing "stars" and take in the beauty!
               </h4>
               <h4 class="actdesc3" id="firedesc">
                 Cozy up to a bonfire on the beach and have a tasty barbecue!
@@ -344,60 +344,57 @@
               Relax by the shore and curl up with a book to wind down.
             </h4>
             <div>
-              <cld-transformation height="480" width="480" crop="fill" />
-              <div>
-                <img
-                  class="actpics5"
-                  src="../images/Activities/Flamingo Watching.jpg"
-                  alt="Flamingo watching image"
-                />
-                <img
-                  class="actpics5"
-                  src="../images/Activities/Jeep Safari.jpg"
-                  alt="Jeep safari image"
-                />
-                <img
-                  class="actpics5"
-                  src="../images/Activities/Beach Reading.jpg"
-                  alt="Beach reading image"
-                />
-              </div>
-            </div>
-            <img
-              id="rifood"
-              class="foodpics"
-              src="../images/Food/Renaissance Island food.jpg"
-              alt="Image of Renaissance Island food"
-            />
-            <img
-              id="riimg"
-              class="bigpics"
-              src="../images/Beaches/ri.png"
-              alt="Image of Renaissance Island"
-            />
-            <h3 class="reviews">Reviews</h3>
-            <div id="rirevsdiv">
               <img
-                class="rev1"
-                src="../images/Revs/RI Rev 1.jpg"
-                alt="Review #1 on Renaissance Island"
+                class="actpics5"
+                src="../images/Activities/Flamingo Watching.jpg"
+                alt="Flamingo watching image"
               />
               <img
-                class="rev2"
-                src="../images/Revs/RI Rev 2.jpg"
-                alt="Review #2 on Renaissance Island"
+                class="actpics5"
+                src="../images/Activities/Jeep Safari.jpg"
+                alt="Jeep safari image"
               />
               <img
-                class="rev3"
-                src="../images/Revs/RI Rev 3.jpg"
-                alt="Review #3 on Renaissance Island"
-              />
-              <img
-                class="rev4"
-                src="../images/Revs/RI Rev 4.jpg"
-                alt="Review #4 on Renaissance Island"
+                class="actpics5"
+                src="../images/Activities/Beach Reading.jpg"
+                alt="Beach reading image"
               />
             </div>
+          </div>
+          <img
+            id="rifood"
+            class="foodpics"
+            src="../images/Food/Renaissance Island food.jpg"
+            alt="Image of Renaissance Island food"
+          />
+          <img
+            id="riimg"
+            class="bigpics"
+            src="../images/Beaches/ri.png"
+            alt="Image of Renaissance Island"
+          />
+          <h3 class="reviews">Reviews</h3>
+          <div id="rirevsdiv">
+            <img
+              class="rev1"
+              src="../images/Revs/RI Rev 1.jpg"
+              alt="Review #1 on Renaissance Island"
+            />
+            <img
+              class="rev2"
+              src="../images/Revs/RI Rev 2.jpg"
+              alt="Review #2 on Renaissance Island"
+            />
+            <img
+              class="rev3"
+              src="../images/Revs/RI Rev 3.jpg"
+              alt="Review #3 on Renaissance Island"
+            />
+            <img
+              class="rev4"
+              src="../images/Revs/RI Rev 4.jpg"
+              alt="Review #4 on Renaissance Island"
+            />
           </div>
         </div>
       </div>

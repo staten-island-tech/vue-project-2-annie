@@ -38,6 +38,16 @@ html,
   --fifth: var(--white);
 }
 
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+}
+
 #body {
   background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg");
   background-size: contain;
@@ -406,6 +416,8 @@ p {
   margin-bottom: 10rem;
 }
 
+/* hovers */
+
 .names:hover {
   transform: scale(1.2);
   transition: transform 0.5s;
@@ -446,6 +458,8 @@ p {
   border-color: var(--fourth);
   border-width: 1rem;
 }
+
+/* media queries */
 
 @media screen and (max-width: 51.25rem) {
   body {
