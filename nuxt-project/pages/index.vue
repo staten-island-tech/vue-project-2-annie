@@ -2,7 +2,7 @@
   <body id="body">
     <div>
       <h1 id="maintitle">Beach Please</h1>
-      <button class="button" @click="theme(index)">Dark Mode</button>
+       <button class="button" @click="theme">Dark Mode</button>
       <div id="gallery">
         <div id="titles">
           <div class="cham">
@@ -276,8 +276,15 @@ export default {
     },
     flip: function () {},
     
+    theme(){
+       if (this.theme === "darkmode") {
+        this.theme = "root";
+      } else {
+        this.theme = "darkmode";
+    }
   },
-};
+  }
+}
 </script>
 
 <style>
