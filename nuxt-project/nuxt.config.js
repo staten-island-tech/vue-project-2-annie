@@ -32,23 +32,24 @@ export default {
     extraPlugins: {
       scrollTrigger: true,
     },
-  buildModules: [
-    'nuxt-gsap-module'
-  ],
-  gsap: {
-    extraPlugins: {
-      scrollTrigger: true
-    }
-  },
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    // https://go.nuxtjs.dev/content
-    "@nuxt/content",
-  ],
+    buildModules: [
+      'nuxt-gsap-module'
+    ],
+    gsap: {
+      extraPlugins: {
+        scrollTrigger: true
+      }
+    },
+    // Modules: https://go.nuxtjs.dev/config-modules
+    modules: [
+      // https://go.nuxtjs.dev/content
+      "@nuxt/content",
+    ],
 
-  // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+    // Content module configuration: https://go.nuxtjs.dev/config-content
+    content: {},
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
-};
+    // Build Configuration: https://go.nuxtjs.dev/config-build
+    build: {},
+  }
+}
