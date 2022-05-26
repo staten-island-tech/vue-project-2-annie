@@ -42,7 +42,7 @@
             <h3 class="activities">Activities</h3>
             <div>
               <h4 class="actdesc">
-                Have some fun at Beach Zumba! Dance with your friends all day!
+                Have some fun at Beach Zumba! Dance with your friends all day.
               </h4>
               <h4 class="actdesc">
                 Play in the sand and make some beautiful sand art!
