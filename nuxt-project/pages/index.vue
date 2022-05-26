@@ -37,9 +37,12 @@
               </h4>
             </div>
             <div>
-              <img class="actpics" src="../images/Activities/Beach zumba.jpg" alt="Beach zumba image"/>
+               <cld-transformation height="480" width="480" crop="fill" />
+            <div>
+              <img class="actpics" src="../images/Activities/Beach zumba.jpg" alt="Beach zumba image" />
               <img class="actpics" src="../images/Activities/Sand art.jpg" alt="Sand art image"/>
               <img class="actpics" src="../images/Activities/Frisbee.jpg" alt="Frisbee image"/>
+            </div>
             </div>
             <h3 class="reviews">Reviews</h3>
             <img class="rev1" src="../images/Revs/Cham Rev 1.jpg" alt="Review #1 on Champagne Beach" />
@@ -72,6 +75,8 @@
                   </p>
                 </div>
                 <div id="actdiv2">
+                  <div>
+                  <cld-transformation height="480" width="480" crop="fill" />
                   <img
                     class="actpics2"
                     src="../images/Activities/Water Polo.jpg"
@@ -87,6 +92,7 @@
                     src="../images/Activities/Castle construction.jpg"
                     alt="Castle construction image"
                   />
+                </div>
                 </div>
               </div>
             </div>
@@ -131,6 +137,8 @@
                 Cozy up to a bonfire on the beach and have a tasty barbecue!
               </h4>
             </div>
+              <div>
+                  <cld-transformation height="480" width="480" crop="fill" />
             <img
               id="fish"
               class="actpics3"
@@ -149,6 +157,7 @@
               src="../images/Activities/Beach Bonfires.jpg"
               alt="Beach bonfires image"
             />
+              </div>
             <h3 class="reviews" id="sosrev">Reviews</h3>
             <img class="rev1" src="../images/Revs/SOS Rev 1.jpg" alt="Review #1 on Sea of Stars" />
             <img class="rev2" src="../images/Revs/SOS Rev 2.jpg" alt="Review #2 on Sea of Stars" />
@@ -182,6 +191,8 @@
                   </p>
                 </div>
                 <div id="actdiv2">
+                  <div>
+                  <cld-transformation height="480" width="480" crop="fill" />
                   <img
                     class="actpics4"
                     src="../images/Activities/Beach volleyball.jpg"
@@ -197,6 +208,7 @@
                     src="../images/Activities/Surfing.jpg"
                     alt="Surfing image"
                   />
+                </div>
                 </div>
               </div>
             </div>
@@ -225,6 +237,8 @@
             <h4 class="actdesc5">
               Relax by the shore and curl up with a book to wind down.
             </h4>
+              <div>
+                  <cld-transformation height="480" width="480" crop="fill" />
             <div>
               <img
                 class="actpics5"
@@ -241,6 +255,7 @@
                 src="../images/Activities/Beach Reading.jpg"
                 alt="Beach reading image"
               />
+            </div>
             </div>
             <img
               id="rifood"
@@ -279,9 +294,9 @@ export default {
     
     theme(){
        if (this.theme === "darkmode") {
-        this.theme = "root";
+        this.theme === ":root";
       } else {
-        this.theme = "darkmode";
+        this.theme === "darkmode";
     }
   },
   }
