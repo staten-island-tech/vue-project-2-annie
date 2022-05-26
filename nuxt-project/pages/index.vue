@@ -2,8 +2,22 @@
   <body id="body">
     <div>
       <h1 id="maintitle">Beach Please</h1>
-      <button class="button" @click="theme">Dark Mode</button>
       <div id="gallery">
+        <!--  <button class="button" @click="theme">Dark Mode</button> -->
+        <input
+          @change="toggleTheme"
+          id="checkbox"
+          type="checkbox"
+          class="switch-checkbox"
+        />
+        <label for="checkbox" class="switch-label">
+          <span>Switch</span>
+          <span>Theme</span>
+          <div
+            class="switch-toggle"
+            :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"
+          ></div>
+        </label>
         <div id="titles">
           <div class="cham">
             <h2 class="names" id="cb">Champagne Beach</h2>
@@ -407,11 +421,44 @@ export default {
   name: "IndexPage",
   mounted: function () {
     this.startAnimations();
+    const initUserTheme = this.getTheme() || this.getMediaPreference();
+    this.setTheme(initUserTheme);
+  },
+  data() {
+    return {
+      userTheme: "light-theme",
+    };
   },
   methods: {
+    setTheme(theme) {
+      localStorage.setItem("user-theme", theme);
+      this.userTheme = theme;
+      document.documentElement.className = theme;
+    },
+    toggleTheme() {
+      const activeTheme = localStorage.getItem("user-theme");
+      if (activeTheme === "light-theme") {
+        this.setTheme("dark-theme");
+      } else {
+        this.setTheme("light-theme");
+      }
+    },
+    getMediaPreference() {
+      const hasDarkPreference = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      if (hasDarkPreference) {
+        return "dark-theme";
+      } else {
+        return "light-theme";
+      }
+    },
+    getTheme() {
+      return localStorage.getItem("user-theme");
+    },
     startAnimations: function () {
       const tl = this.$gsap.timeline({ scrollTrigger: "#gallery", delay: 0.5 });
-      this.$gsap.to("#maintitle", { duration: 1, color: "white" });
+      this.$gsap.to("#maintitle", { duration: 1 });
       tl.from("#gallery", { opacity: 0, duration: 3 });
       this.$gsap.from("#chamrevsdiv", {
         scrollTrigger: "#chamrevsdiv",
@@ -449,11 +496,22 @@ export default {
       });
     },
     theme() {
-      if (this.theme === "darkmode") {
-        this.theme === ":root";
+      /*       if (this.theme === "darkmode") {
+        this.theme === "lightmode";
+        console.log("yeah");
       } else {
         this.theme === "darkmode";
-      }
+        console.log("nah");
+      } */
+      /*       if (document.body.classList.contains("lightmode")) {
+        document.body.classList.add("darkmode");
+        document.body.classList.remove("lightmode");
+        console.log("yes");
+      } else {
+        document.body.classList.add("lightmode");
+        document.body.classList.remove("darkmode");
+        console.log("no");
+      } */
     },
   },
 };

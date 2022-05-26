@@ -11,7 +11,7 @@ html,
   font-family: "Readex Pro", sans-serif;
 }
 
-:root {
+/* :root {
   --bg-blue: #f5f6fa;
   --dark-blue: #0c5aaf;
   --light-blue: #a2ccf7;
@@ -36,6 +36,33 @@ html,
   --third: var(--light-blue);
   --fourth: var(--black);
   --fifth: var(--white);
+} */
+:root {
+  --h1: 15rem;
+  --h2: 10rem;
+  --h3: 8rem;
+  --h4: 5rem;
+  --p: 3.5rem;
+
+  --primary: #f5f6fa;
+  --secondary: #0c5aaf;
+  --third: #a2ccf7;
+  --fourth: #000000;
+  --fifth: #ffffff;
+}
+
+:root.dark-theme {
+  --h1: 15rem;
+  --h2: 10rem;
+  --h3: 8rem;
+  --h4: 5rem;
+  --p: 3.5rem;
+
+  --primary: #010d41;
+  --secondary: #043e7c;
+  --third: #4f7faf;
+  --fourth: #ffffff;
+  --fifth: #000000;
 }
 
 body,
@@ -53,6 +80,27 @@ html,
   background-size: contain;
 }
 
+.switch-checkbox {
+  display: none;
+}
+
+.switch-label {
+  position: absolute;
+  font-size: var(--h4);
+  margin-left: 45%;
+  margin-top: -5rem;
+  background-color: var(--fifth);
+  color: var(--fourth);
+}
+
+/* .lightmode {
+  --primary: var(--bg-blue);
+  --secondary: var(--dark-blue);
+  --third: var(--light-blue);
+  --fourth: var(--black);
+  --fifth: var(--white);
+}
+
 .darkmode {
   --primary: var(--bg-darker);
   --secondary: var(--darker-blue);
@@ -60,9 +108,9 @@ html,
   --fourth: var(--white);
   --fifth: var(--black);
 }
-
+ */
 h1 {
-  color: var(--secondary);
+  color: var(--fifth);
   font-size: var(--h1);
   background: var(--secondary);
   text-align: center;
@@ -76,6 +124,7 @@ h1 {
 }
 
 h2 {
+
   font-size: var(--h2);
   text-align: center;
 }
@@ -103,6 +152,10 @@ p {
   border: 1rem solid var(--secondary);
   padding: 2rem;
   word-wrap: break-word;
+}
+
+#cb {
+  margin-top: 10rem;
 }
 
 #titles {
@@ -450,13 +503,18 @@ p {
 
 .button {
   font-size: var(--h4);
-  margin-left: 15rem;
+  margin-left: 40%;
   margin-top: 2%;
   padding: 2%;
   background-color: var(--fifth);
   color: var(--fourth);
   border-color: var(--fourth);
   border-width: 1rem;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 /* media queries */
