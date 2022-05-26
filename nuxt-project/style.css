@@ -93,22 +93,6 @@ html,
   color: var(--fourth);
 }
 
-/* .lightmode {
-  --primary: var(--bg-blue);
-  --secondary: var(--dark-blue);
-  --third: var(--light-blue);
-  --fourth: var(--black);
-  --fifth: var(--white);
-}
-
-.darkmode {
-  --primary: var(--bg-darker);
-  --secondary: var(--darker-blue);
-  --third: var(--light-darkerblue);
-  --fourth: var(--white);
-  --fifth: var(--black);
-}
- */
 h1 {
   color: var(--fifth);
   font-size: var(--h1);

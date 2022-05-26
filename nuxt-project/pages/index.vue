@@ -3,7 +3,6 @@
     <div>
       <h1 id="maintitle">Beach Please</h1>
       <div id="gallery">
-        <!--  <button class="button" @click="theme">Dark Mode</button> -->
         <input
           @change="toggleTheme"
           id="checkbox"
@@ -360,21 +359,21 @@
             <div>
               <cld-transformation height="480" width="480" crop="fill" />
               <div>
-              <img
-                class="actpics5"
-                src="../images/Activities/Flamingo Watching.jpg"
-                alt="Flamingo watching image"
-              />
-              <img
-                class="actpics5"
-                src="../images/Activities/Jeep Safari.jpg"
-                alt="Jeep safari image"
-              />
-              <img
-                class="actpics5"
-                src="../images/Activities/Beach Reading.jpg"
-                alt="Beach reading image"
-              />
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Flamingo Watching.jpg"
+                  alt="Flamingo watching image"
+                />
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Jeep Safari.jpg"
+                  alt="Jeep safari image"
+                />
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Beach Reading.jpg"
+                  alt="Beach reading image"
+                />
               </div>
             </div>
           </div>
@@ -497,24 +496,6 @@ export default {
         x: 500,
         rotation: 360,
       });
-    },
-    theme() {
-      /*       if (this.theme === "darkmode") {
-        this.theme === "lightmode";
-        console.log("yeah");
-      } else {
-        this.theme === "darkmode";
-        console.log("nah");
-      } */
-      /*       if (document.body.classList.contains("lightmode")) {
-        document.body.classList.add("darkmode");
-        document.body.classList.remove("lightmode");
-        console.log("yes");
-      } else {
-        document.body.classList.add("lightmode");
-        document.body.classList.remove("darkmode");
-        console.log("no");
-      } */
     },
   },
 };
