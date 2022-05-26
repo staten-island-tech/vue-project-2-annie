@@ -2,6 +2,7 @@
   <body id="body">
     <div>
       <h1 id="maintitle">Beach Please</h1>
+      <button class="button" @click="theme(index)">Dark Mode</button>
       <div id="gallery">
         <div id="titles">
           <div class="cham">
@@ -274,6 +275,7 @@ export default {
       tl.from("#gallery", { opacity: 0, duration: 3 });
     },
     flip: function () {},
+    
   },
 };
 </script>

@@ -21,8 +21,8 @@ html,
   --white: #ffffff;
   --black: #000000;
   --footer: #0690ff;
-  --darker-blue: #052c55;
-  --bg-darker: #4f525e;
+  --darker-blue: #043e7c;
+  --bg-darker: #010d41;
   --light-darkerblue: #4f7faf;
 
   --h1: 15rem;
@@ -98,12 +98,10 @@ p {
 #titles {
   position: static;
   display: inline;
-  margin-top: 10rem;
 }
 
 .names {
-  margin-top: 15rem;
-  color: var(--black);
+  color: var(--fourth);
 }
 
 .bigpics {
@@ -434,4 +432,15 @@ p {
 .actpics5:hover {
   opacity: 0;
   transition: opacity 1s;
+}
+
+.button {
+  font-size: var(--h4);
+  margin-left: 15rem;
+  margin-top: 2%;
+  padding: 2%;
+  background-color: var(--fifth);
+  color: var(--fourth);
+  border-color: var(--fourth);
+  border-width: 1rem;
 }
