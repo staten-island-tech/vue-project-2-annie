@@ -131,7 +131,7 @@
                 Fish from the pier or a boat! Teachers are available if needed.
               </h4>
               <h4 class="actdesc3" id="stardesc">
-                Watch the signature glowing "stars" and take in the beauty!
+                Watch the glowing "stars" and take in the beauty!
               </h4>
               <h4 class="actdesc3" id="firedesc">
                 Cozy up to a bonfire on the beach and have a tasty barbecue!
@@ -255,6 +255,14 @@
                 src="../images/Activities/Beach Reading.jpg"
                 alt="Beach reading image"
               />
+              <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
+              <h3 class="reviews">Reviews</h3>
+              <div id="rirevsdiv">
+                <img class="rev1" src="../images/Revs/RI Rev 1.jpg" alt="" />
+                <img class="rev2" src="../images/Revs/RI Rev 2.jpg" alt="" />
+                <img class="rev3" src="../images/Revs/RI Rev 3.jpg" alt="" />
+                <img class="rev4" src="../images/Revs/RI Rev 4.jpg" alt="" />
+              </div>
             </div>
             </div>
             <img
@@ -287,8 +295,42 @@ export default {
   methods: {
     startAnimations: function () {
       const tl = this.$gsap.timeline({ scrollTrigger: "#gallery", delay: 0.5 });
-     this.$gsap.to("#maintitle", { duration: 1, color: "white" });
+      this.$gsap.to("#maintitle", { duration: 1, color: "white" });
       tl.from("#gallery", { opacity: 0, duration: 3 });
+      this.$gsap.from("#chamrevsdiv", {
+        scrollTrigger: "#chamrevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        x: 500,
+        rotation: 360,
+      });
+      this.$gsap.from("#orarevsdiv", {
+        scrollTrigger: "#orarevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+      });
+      this.$gsap.from("#sosrevsdiv", {
+        scrollTrigger: "#sosrevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+        x: 500,
+        rotation: 90,
+      });
+      this.$gsap.from("#coprevsdiv", {
+        scrollTrigger: "#coprevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+      });
+      this.$gsap.from("#rirevsdiv", {
+        scrollTrigger: "#rirevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        x: 500,
+        rotation: 360,
+      });
     },
     flip: function () {},
     
