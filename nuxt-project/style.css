@@ -21,6 +21,9 @@ html,
   --white: #ffffff;
   --black: #000000;
   --footer: #0690ff;
+  --darker-blue: #052c55;
+  --bg-darker: #4f525e;
+  --light-darkerblue: #4f7faf;
 
   --h1: 15rem;
   --h2: 10rem;
@@ -29,6 +32,10 @@ html,
   --p: 3.5rem;
 
   --primary: var(--bg-blue);
+  --secondary: var(--dark-blue);
+  --third: var(--light-blue);
+  --fourth: var(--black);
+  --fifth: var(--white);
 }
 
 #body {
@@ -36,10 +43,18 @@ html,
   background-size: contain;
 }
 
+.darkmode {
+  --primary: var(--bg-darker);
+  --secondary: var(--darker-blue);
+  --third: var(--light-darkerblue);
+  --fourth: var(--white);
+  --fifth: var(--black);
+}
+
 h1 {
-  color: var(--dark-blue);
+  color: var(--secondary);
   font-size: var(--h1);
-  background: var(--dark-blue);
+  background: var(--secondary);
   text-align: center;
   width: 170rem;
   height: 30rem;
@@ -63,10 +78,10 @@ h3 {
 h4 {
   font-size: var(--h4);
   text-align: center;
-  background-color: var(--light-blue);
+  background-color: var(--third);
   width: 40rem;
   height: 39rem;
-  border: 1rem solid var(--dark-blue);
+  border: 1rem solid var(--secondary);
   padding: 2rem;
   word-wrap: break-word;
 }
@@ -74,8 +89,8 @@ h4 {
 p {
   font-size: var(--p);
   text-align: center;
-  background-color: var(--light-blue);
-  border: 1rem solid var(--dark-blue);
+  background-color: var(--third);
+  border: 1rem solid var(--secondary);
   padding: 2rem;
   word-wrap: break-word;
 }
@@ -130,12 +145,12 @@ p {
 }
 
 .activities {
-  color: var(--white);
+  color: var(--fifth);
   margin-top: -63rem;
 }
 
 .reviews {
-  color: var(--dark-blue);
+  color: var(--secondary);
   margin-top: 10rem;
 }
 
@@ -210,7 +225,7 @@ p {
   margin-top: 75rem;
   margin-left: 12.5rem;
   position: absolute;
-  color: var(--black);
+  color: var(--fourth);
 }
 
 #sosimg {
