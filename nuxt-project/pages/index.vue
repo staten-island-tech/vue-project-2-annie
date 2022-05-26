@@ -38,10 +38,12 @@
               <img class="actpics" src="../images/Activities/Frisbee.jpg" />
             </div>
             <h3 class="reviews">Reviews</h3>
-            <img class="rev1" src="../images/Revs/Cham Rev 1.jpg" alt="" />
-            <img class="rev2" src="../images/Revs/Cham Rev 2.jpg" alt="" />
-            <img class="rev3" src="../images/Revs/Cham Rev 3.jpg" alt="" />
-            <img class="rev4" src="../images/Revs/Cham Rev 4.jpg" alt="" />
+            <div id="chamrevsdiv">
+              <img class="rev1" src="../images/Revs/Cham Rev 1.jpg" alt="" />
+              <img class="rev2" src="../images/Revs/Cham Rev 2.jpg" alt="" />
+              <img class="rev3" src="../images/Revs/Cham Rev 3.jpg" alt="" />
+              <img class="rev4" src="../images/Revs/Cham Rev 4.jpg" alt="" />
+            </div>
           </div>
           <div class="ora" id="ob">
             <h2 id="obname" class="names">Ora Beach</h2>
@@ -88,10 +90,12 @@
               src="../images/Food/Ora beach food.jpg"
             />
             <h3 class="reviews">Reviews</h3>
-            <img class="rev1" src="../images/Revs/Ora Rev 1.jpg" alt="" />
-            <img class="rev2" src="../images/Revs/Ora Rev 2.jpg" alt="" />
-            <img class="rev3" src="../images/Revs/Ora Rev 3.jpg" alt="" />
-            <img class="rev4" src="../images/Revs/Ora Rev 4.jpg" alt="" />
+            <div id="orarevsdiv">
+              <img class="rev1" src="../images/Revs/Ora Rev 1.jpg" alt="" />
+              <img class="rev2" src="../images/Revs/Ora Rev 2.jpg" alt="" />
+              <img class="rev3" src="../images/Revs/Ora Rev 3.jpg" alt="" />
+              <img class="rev4" src="../images/Revs/Ora Rev 4.jpg" alt="" />
+            </div>
           </div>
           <div class="stars">
             <h2 class="names" id="sos">Sea of Stars</h2>
@@ -136,101 +140,107 @@
               src="../images/Activities/Beach Bonfires.jpg"
             />
             <h3 class="reviews" id="sosrev">Reviews</h3>
-            <img class="rev1" src="../images/Revs/SOS Rev 1.jpg" alt="" />
-            <img class="rev2" src="../images/Revs/SOS Rev 2.jpg" alt="" />
-            <img class="rev3" src="../images/Revs/SOS Rev 3.jpg" alt="" />
-            <img class="rev4" src="../images/Revs/SOS Rev 4.jpg" alt="" />
-          </div>
-          <div class="copa" id="cb">
-            <h2 id="cbname" class="names">Copacabana</h2>
-            <div>
-              <img id="sand4" class="sand" src="https://bit.ly/3NhBo1R" />
-              <img
-                class="bigpics"
-                id="cbimg"
-                src="../images/Beaches/copacabana.jpg"
-              />
-              <h3 id="act4" class="activities">Activities</h3>
-              <div id="cbacts">
-                <div>
-                  <p class="actdesc2">
-                    Compete by yourself or in teams and play volleyball on the
-                    beach!
-                  </p>
-                  <p class="actdesc2">
-                    Discover and interact with the aquatic scenery while
-                    snorkling!
-                  </p>
-                  <p class="actdesc2">
-                    Go for surfing and have fun riding waves of all different
-                    sizes!
-                  </p>
-                </div>
-                <div id="actdiv2">
-                  <img
-                    class="actpics4"
-                    src="../images/Activities/Beach volleyball.jpg"
-                  />
-                  <img
-                    class="actpics4"
-                    src="../images/Activities/Snorkling.jpg"
-                  />
-                  <img
-                    class="actpics4"
-                    src="../images/Activities/Surfing.jpg"
-                  />
+            <div id="sosrevsdiv">
+              <img class="rev1" src="../images/Revs/SOS Rev 1.jpg" alt="" />
+              <img class="rev2" src="../images/Revs/SOS Rev 2.jpg" alt="" />
+              <img class="rev3" src="../images/Revs/SOS Rev 3.jpg" alt="" />
+              <img class="rev4" src="../images/Revs/SOS Rev 4.jpg" alt="" />
+            </div>
+            <div class="copa" id="cb">
+              <h2 id="cbname" class="names">Copacabana</h2>
+              <div>
+                <img id="sand4" class="sand" src="https://bit.ly/3NhBo1R" />
+                <img
+                  class="bigpics"
+                  id="cbimg"
+                  src="../images/Beaches/copacabana.jpg"
+                />
+                <h3 id="act4" class="activities">Activities</h3>
+                <div id="cbacts">
+                  <div>
+                    <p class="actdesc2">
+                      Compete by yourself or in teams and play volleyball on the
+                      beach!
+                    </p>
+                    <p class="actdesc2">
+                      Discover and interact with the aquatic scenery while
+                      snorkling!
+                    </p>
+                    <p class="actdesc2">
+                      Go for surfing and have fun riding waves of all different
+                      sizes!
+                    </p>
+                  </div>
+                  <div id="actdiv2">
+                    <img
+                      class="actpics4"
+                      src="../images/Activities/Beach volleyball.jpg"
+                    />
+                    <img
+                      class="actpics4"
+                      src="../images/Activities/Snorkling.jpg"
+                    />
+                    <img
+                      class="actpics4"
+                      src="../images/Activities/Surfing.jpg"
+                    />
+                  </div>
                 </div>
               </div>
+              <img
+                class="foodpics"
+                id="cbfood"
+                src="../images/Food/Copacabana food.jpg"
+              />
+              <h3 class="reviews">Reviews</h3>
+              <div id="coprevsdiv">
+                <img class="rev1" src="../images/Revs/Cop Rev 1.jpg" alt="" />
+                <img class="rev2" src="../images/Revs/Cop Rev 2.jpg" alt="" />
+                <img class="rev3" src="../images/Revs/Cop Rev 3.jpg" alt="" />
+                <img class="rev4" src="../images/Revs/Cop Rev 4.jpg" alt="" />
+              </div>
             </div>
-            <img
-              class="foodpics"
-              id="cbfood"
-              src="../images/Food/Copacabana food.jpg"
-            />
-            <h3 class="reviews">Reviews</h3>
-            <img class="rev1" src="../images/Revs/Cop Rev 1.jpg" alt="" />
-            <img class="rev2" src="../images/Revs/Cop Rev 2.jpg" alt="" />
-            <img class="rev3" src="../images/Revs/Cop Rev 3.jpg" alt="" />
-            <img class="rev4" src="../images/Revs/Cop Rev 4.jpg" alt="" />
-          </div>
-          <div class="rena">
-            <h2 id="riname" class="names">Renaissance Island</h2>
-            <img class="sand" src="../images/Beaches/sand.jpg" />
-            <h3 class="activities">Activities</h3>
-            <h4 class="actdesc5">
-              The island is known for its flamingos, so watch them here!
-            </h4>
-            <h4 class="actdesc5">
-              Enjoy a thrilling beachside Jeep Safari tour!
-            </h4>
-            <h4 class="actdesc5">
-              Relax by the shore and curl up with a book to wind down.
-            </h4>
-            <div>
+            <div class="rena">
+              <h2 id="riname" class="names">Renaissance Island</h2>
+              <img class="sand" src="../images/Beaches/sand.jpg" />
+              <h3 id="act5" class="activities">Activities</h3>
+              <h4 class="actdesc5">
+                The island is known for its flamingos, so watch them here!
+              </h4>
+              <h4 class="actdesc5">
+                Enjoy a thrilling beachside Jeep Safari tour!
+              </h4>
+              <h4 class="actdesc5">
+                Relax by the shore and curl up with a book to wind down.
+              </h4>
+              <div>
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Flamingo Watching.jpg"
+                />
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Jeep Safari.jpg"
+                />
+                <img
+                  class="actpics5"
+                  src="../images/Activities/Beach Reading.jpg"
+                />
+              </div>
               <img
-                class="actpics5"
-                src="../images/Activities/Flamingo Watching.jpg"
+                id="rifood"
+                class="foodpics"
+                src="../images/Food/Renaissance Island food.jpg"
               />
-              <img
-                class="actpics5"
-                src="../images/Activities/Jeep Safari.jpg"
-              />
-              <img
-                class="actpics5"
-                src="../images/Activities/Beach Reading.jpg"
-              />
+              <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
+              <h3 class="reviews">Reviews</h3>
+              <div id="rirevsdiv">
+                <img class="rev1" src="../images/Revs/RI Rev 1.jpg" alt="" />
+                <img class="rev2" src="../images/Revs/RI Rev 2.jpg" alt="" />
+                <img class="rev3" src="../images/Revs/RI Rev 3.jpg" alt="" />
+                <img class="rev4" src="../images/Revs/RI Rev 4.jpg" alt="" />
+              </div>
             </div>
-            <img
-              id="rifood"
-              class="foodpics"
-              src="../images/Food/Renaissance Island food.jpg"
-            />
-            <img id="riimg" class="bigpics" src="../images/Beaches/ri.png" />
-            <h3 class="reviews">Reviews</h3>
-            <img class="rev1" src="../images/Revs/RI Rev 1.jpg" alt="" />
-            <img class="rev2" src="../images/Revs/RI Rev 2.jpg" alt="" />
-            <img class="rev3" src="../images/Revs/RI Rev 3.jpg" alt="" />
-            <img class="rev4" src="../images/Revs/RI Rev 4.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -243,20 +253,51 @@ export default {
   name: "IndexPage",
   mounted: function () {
     this.startAnimations();
-    this.flip();
   },
   methods: {
     startAnimations: function () {
-      /* gsap.registerPlugin(ScrollTrigger); */
       const tl = this.$gsap.timeline({ scrollTrigger: "#gallery", delay: 0.5 });
       this.$gsap.to("#maintitle", { duration: 1, color: "white" });
       tl.from("#gallery", { opacity: 0, duration: 3 });
+      this.$gsap.from("#chamrevsdiv", {
+        scrollTrigger: "#chamrevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        x: 500,
+        rotation: 360,
+      });
+      this.$gsap.from("#orarevsdiv", {
+        scrollTrigger: "#orarevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+      });
+      this.$gsap.from("#sosrevsdiv", {
+        scrollTrigger: "#sosrevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+        x: 500,
+        rotation: 90,
+      });
+      this.$gsap.from("#coprevsdiv", {
+        scrollTrigger: "#coprevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        y: 500,
+      });
+      this.$gsap.from("#rirevsdiv", {
+        scrollTrigger: "#rirevsdiv",
+        opacity: 0,
+        duration: 1.5,
+        x: 500,
+        rotation: 360,
+      });
     },
-    flip: function () {},
   },
 };
 </script>
 
 <style>
-@import "style.css";
+@import "css/style.css";
 </style>

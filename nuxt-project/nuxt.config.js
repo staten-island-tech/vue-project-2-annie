@@ -36,7 +36,6 @@ export default {
   ],
   gsap: {
     extraPlugins: {
-
       scrollTrigger: true
     }
   },

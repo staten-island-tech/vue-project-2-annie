@@ -1,16 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap");
 
-body,
-html,
-* {
-  margin: 0;
-  padding: 0;
-  font-size: 62.5%;
-  box-sizing: border-box;
-  font-family: "Readex Pro", sans-serif;
-}
-
 :root {
   --bg-blue: #f5f6fa;
   --dark-blue: #0c5aaf;
@@ -29,6 +19,16 @@ html,
   --p: 3.5rem;
 
   --primary: var(--bg-blue);
+}
+
+body,
+html,
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
 }
 
 #body {
@@ -391,6 +391,8 @@ p {
   height: 25rem;
 }
 
+/* hovers */
+
 .names:hover {
   transform: scale(1.2);
   transition: transform 0.5s;
@@ -419,4 +421,240 @@ p {
 .actpics5:hover {
   opacity: 0;
   transition: opacity 1s;
+}
+
+/* media queries */
+
+@media screen and (max-width: 51.25rem) {
+  body {
+    width: 117.5%;
+  }
+
+  h1 {
+    font-size: var(--h2);
+    width: 100rem;
+    height: 20rem;
+    padding: 3rem;
+    font-family: "Ribeye", cursive;
+    border-radius: 1rem;
+    margin-left: 5.5%;
+    margin-top: 6rem;
+  }
+
+  h2 {
+    font-size: var(--h3);
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 7rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2.2rem;
+  }
+
+  .bigpics {
+    width: 50%;
+    height: 40rem;
+  }
+
+  .foodpics {
+    width: 50%;
+    height: 40rem;
+  }
+
+  .actpics {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .actdesc {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    width: 25rem;
+    height: 24rem;
+  }
+
+  .activities {
+    margin-top: -63rem;
+  }
+
+  .reviews {
+    margin-top: 10rem;
+  }
+
+  .sand {
+    width: 100%;
+    height: 50rem;
+  }
+
+  .rev1 {
+    width: 40rem;
+    height: 15rem;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .rev2 {
+    width: 40rem;
+    height: 15rem;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .rev3 {
+    width: 40rem;
+    height: 15rem;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .rev4 {
+    width: 40rem;
+    height: 15rem;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  #sand2 {
+    width: 35%;
+    height: 80rem;
+  }
+
+  #sand4 {
+    width: 35%;
+    height: 80rem;
+  }
+
+  .actpics2 {
+    margin-top: 3rem;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .actdesc2 {
+    width: 20rem;
+    height: 19rem;
+  }
+
+  #oraacts {
+    margin-top: 79rem;
+    margin-left: 10rem;
+  }
+
+  #act2 {
+    margin-left: 5rem;
+    margin-top: 71rem;
+  }
+
+  .actpics4 {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  #cbacts {
+    margin-top: 79rem;
+    margin-left: 82rem;
+  }
+
+  #act4 {
+    margin-top: 71rem;
+    margin-left: 78rem;
+  }
+
+  .actpics5 {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
+  .actdesc5 {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    width: 25rem;
+    height: 24rem;
+  }
+
+  #act5 {
+    margin-top: -45rem;
+  }
+
+  #riimg {
+    margin-top: 5rem;
+  }
+
+  #rifood {
+    margin-top: 5rem;
+  }
+
+  #act3 {
+    margin-top: -80rem;
+  }
+
+  #sand3 {
+    height: 53rem;
+  }
+
+  #fish {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 25rem;
+    height: 25rem;
+  }
+
+  #stargaze {
+    width: 25rem;
+    height: 25rem;
+    margin-left: 45rem;
+    margin-top: 10rem;
+  }
+
+  #bonfire {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    margin-top: 15rem;
+    margin-left: 80rem;
+  }
+
+  .actdesc3 {
+    margin-top: 5rem;
+    width: 25rem;
+    height: 24rem;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  #fishdesc {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    position: absolute;
+  }
+
+  #stardesc {
+    position: absolute;
+    margin-left: 45rem;
+    margin-top: 10rem;
+  }
+
+  #firedesc {
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 80rem;
+  }
+
+  #sosrev {
+    margin-top: 8rem;
+  }
 }
