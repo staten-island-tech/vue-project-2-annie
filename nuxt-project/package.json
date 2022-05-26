@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
+    "cloudinary-vue": "^1.2.4",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "save-dev": "^0.0.1-security",

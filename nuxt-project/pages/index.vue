@@ -6,7 +6,8 @@
       <div id="gallery">
         <div id="titles">
           <div class="cham">
-            <h2 class="names" id="cb">Champagne Beach</h2>
+            <h2 class="names" id="cb">Champagne Beach
+            </h2>
             <div>
               <img
                 id="chamimg"
@@ -289,4 +290,5 @@ export default {
 
 <style>
 @import "style.css";
+
 </style>
