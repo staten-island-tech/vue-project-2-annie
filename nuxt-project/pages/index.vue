@@ -294,9 +294,9 @@ export default {
     
     theme(){
        if (this.theme === "darkmode") {
-        this.theme === ":root";
+        this.theme = ":root";
       } else {
-        this.theme === "darkmode";
+        this.theme = "darkmode";
     }
   },
   }
