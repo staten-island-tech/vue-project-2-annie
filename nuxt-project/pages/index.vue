@@ -358,6 +358,8 @@
               Relax by the shore and curl up with a book to wind down.
             </h4>
             <div>
+              <cld-transformation height="480" width="480" crop="fill" />
+              <div>
               <img
                 class="actpics5"
                 src="../images/Activities/Flamingo Watching.jpg"
@@ -373,6 +375,7 @@
                 src="../images/Activities/Beach Reading.jpg"
                 alt="Beach reading image"
               />
+              </div>
             </div>
           </div>
           <img
