@@ -76,7 +76,7 @@
             <div id="chamrevsdiv">
               <img
                 class="rev1"
-                src="~..\assets\public\images\Revs\Cham Rev 1.jpg"
+                src="~..\assets\public\images\Revs\Cham-Rev-1.jpg"
                 alt="Review #1 on Champagne Beach"
               />
               <img
