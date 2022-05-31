@@ -393,7 +393,7 @@
           <div id="rirevsdiv">
             <img
               class="rev1"
-              src="~../assets/public/images/Revs/RI Rev 1.jpg"
+              src="~../assets/public/images/Revs/RI-Rev-1.jpg"
               alt="Review #1 on Renaissance Island"
             />
             <img
