@@ -11,32 +11,6 @@ html,
   font-family: "Readex Pro", sans-serif;
 }
 
-/* :root {
-  --bg-blue: #f5f6fa;
-  --dark-blue: #0c5aaf;
-  --light-blue: #a2ccf7;
-  --bg-wave: #52b3f3;
-  --mid-wave: #4d88c8;
-  --fr-wave: #0099ff;
-  --white: #ffffff;
-  --black: #000000;
-  --footer: #0690ff;
-  --darker-blue: #043e7c;
-  --bg-darker: #010d41;
-  --light-darkerblue: #4f7faf;
-
-  --h1: 15rem;
-  --h2: 10rem;
-  --h3: 8rem;
-  --h4: 5rem;
-  --p: 3.5rem;
-
-  --primary: var(--bg-blue);
-  --secondary: var(--dark-blue);
-  --third: var(--light-blue);
-  --fourth: var(--black);
-  --fifth: var(--white);
-} */
 :root {
   --h1: 15rem;
   --h2: 10rem;
@@ -189,7 +163,7 @@ p {
 }
 
 .activities {
-  color: var(--fifth);
+  color: var(--fourth);
   margin-top: -63rem;
 }
 
