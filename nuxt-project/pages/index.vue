@@ -503,5 +503,4 @@ export default {
 
 <style>
 @import "style.css";
-@import "index.js";
 </style>
