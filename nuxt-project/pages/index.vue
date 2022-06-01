@@ -423,8 +423,12 @@
 </template>
 
 <script>
+import style from "@/style/"
 export default {
   name: "IndexPage",
+  components: {
+    style,
+  },
   mounted: function () {
     this.startAnimations();
     const initUserTheme = this.getTheme() || this.getMediaPreference();
