@@ -24,19 +24,19 @@
               <img
                 id="chamimg"
                 class="bigpics"
-                src="~../assets/public/images/Beaches/champagnebeach.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036481/Comp%20sci%20project/champagnebeach_heubb5.jpg"
                 alt="Image of Champagne Beach"
               />
               <img
                 id="chamfood"
                 class="foodpics"
-                src="~..\assets\public\images\Food\Champagne beach food.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036893/Comp%20sci%20project/Champagne_beach_food_wt157o.jpg"
                 alt="Image of Champagne Beach food"
               />
             </div>
             <img
               class="sand"
-              src="~..\assets\public\images\Beaches\sand.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036481/Comp%20sci%20project/sand_edvrch.webp"
               alt="Image of sand"
             />
             <h3 class="activities">Activities</h3>
@@ -57,17 +57,17 @@
               <div>
                 <img
                   class="actpics"
-                  src="~..\assets\public\images\Activities\Beach zumba.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035152/Comp%20sci%20project/Beach_zumba_m3hwpg.jpg"
                   alt="Beach zumba image"
                 />
                 <img
                   class="actpics"
-                  src="~..\assets\public\images\Activities\Sand art.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035157/Comp%20sci%20project/Sand_art_msdtu5.jpg"
                   alt="Sand art image"
                 />
                 <img
                   class="actpics"
-                  src="~..\assets\public\images\Activities\Frisbee.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035153/Comp%20sci%20project/Frisbee_xdvz1i.jpg"
                   alt="Frisbee image"
                 />
               </div>
@@ -76,22 +76,22 @@
             <div id="chamrevsdiv">
               <img
                 class="rev1"
-                src="~..\assets\public\images\Revs\Cham-Rev-1.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036961/Comp%20sci%20project/Cham-Rev-1_nok4vs.jpg"
                 alt="Review #1 on Champagne Beach"
               />
               <img
                 class="rev2"
-                src="~..\assets\public\images\Revs\Cham Rev 2.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Cham_Rev_2_kbwx5q.jpg"
                 alt="Review #2 on Champagne Beach"
               />
               <img
                 class="rev3"
-                src="~..\assets\public\images\Revs\Cham Rev 3.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036961/Comp%20sci%20project/Cham_Rev_3_lavxou.jpg"
                 alt="Review #3 on Champagne Beach"
               />
               <img
                 class="rev4"
-                src="~..\assets\public\images\Revs\Cham Rev 4.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036961/Comp%20sci%20project/Cham_Rev_4_juzqul.jpg"
                 alt="Review #4 on Champagne Beach"
               />
             </div>
@@ -108,7 +108,7 @@
               <img
                 class="bigpics"
                 id="oraimg"
-                src="~../assets/public/images/Beaches/ora beach.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036484/Comp%20sci%20project/ora_beach_gnedmd.jpg"
                 alt="Image of Ora Beach"
               />
               <h3 id="act2" class="activities">Activities</h3>
@@ -130,17 +130,17 @@
                     <cld-transformation height="480" width="480" crop="fill" />
                     <img
                       class="actpics2"
-                      src="~..\assets\public\images\Activities\Water polo.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035158/Comp%20sci%20project/Water_polo_seub9q.jpg"
                       alt="Water polo image"
                     />
                     <img
                       class="actpics2"
-                      src="~..\assets\public\images\Activities\Jewelry Making.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035160/Comp%20sci%20project/Jewelry_Making_urgze4.png"
                       alt="Jewelry making image"
                     />
                     <img
                       class="actpics2"
-                      src="~..\assets\public\images\Activities\Castle construction.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035152/Comp%20sci%20project/Castle_construction_ypslpk.jpg"
                       alt="Castle construction image"
                     />
                   </div>
@@ -150,29 +150,29 @@
             <img
               class="foodpics"
               id="orafood"
-              src="~..\assets\public\images\Food\Ora beach food.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036893/Comp%20sci%20project/Ora_beach_food_noh6ce.jpg"
               alt="Image of Ora Beach food"
             />
             <h3 class="reviews">Reviews</h3>
             <div id="orarevsdiv">
               <img
                 class="rev1"
-                src="~..\assets\public\images\Revs\Ora Rev 1.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Ora_Rev_1_iz1drz.jpg"
                 alt="Review #1 on Ora Beach"
               />
               <img
                 class="rev2"
-                src="~..\assets\public\images\Revs\Ora Rev 2.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Ora_Rev_2_yihyee.jpg"
                 alt="Review #2 on Ora Beach"
               />
               <img
                 class="rev3"
-                src="~..\assets\public\images\Revs\Ora Rev 3.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/Ora_Rev_3_odajaq.jpg"
                 alt="Review #3 on Ora Beach"
               />
               <img
                 class="rev4"
-                src="~..\assets\public\images\Revs\Ora Rev 4.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/Ora_Rev_4_p8wgnc.jpg"
                 alt="Review #4 on Ora Beach"
               />
             </div>
@@ -183,20 +183,20 @@
               <img
                 id="sosimg"
                 class="bigpics"
-                src="~../assets/public/images/Beaches/maldives.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036483/Comp%20sci%20project/maldives_pecnhh.jpg"
                 alt="Image of Sea of Stars"
               />
               <img
                 id="sosfood"
                 class="foodpics"
-                src="~..\assets\public\images\Food\Sea of Stars food.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036893/Comp%20sci%20project/Sea_of_Stars_food_reoffc.jpg"
                 alt="Image of Sea of Stars food"
               />
             </div>
             <img
               id="sand3"
               class="sand"
-              src="~..\assets\public\images\Beaches\sand.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036481/Comp%20sci%20project/sand_edvrch.webp"
               alt="Image of sand"
             />
             <h3 id="act3" class="activities">Activities</h3>
@@ -216,19 +216,19 @@
               <img
                 id="fish"
                 class="actpics3"
-                src="~..\assets\public\images\Activities\Fishing.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035152/Comp%20sci%20project/Fishing_e32cnu.jpg"
                 alt="Fishing image"
               />
               <img
                 class="actpics3"
                 id="stargaze"
-                src="~..\assets\public\images\Activities\Sea star gazing.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035155/Comp%20sci%20project/Sea_star_gazing_ra2lhj.jpg"
                 alt="Sea star gazing image"
               />
               <img
                 class="actpics3"
                 id="bonfire"
-                src="~..\assets\public\images\Activities\Beach Bonfires.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035156/Comp%20sci%20project/Beach_Bonfires_swixod.jpg"
                 alt="Beach bonfires image"
               />
             </div>
@@ -236,22 +236,22 @@
             <div id="sosrevsdiv">
               <img
                 class="rev1"
-                src="~..\assets\public\images\Revs\SOS Rev 1.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/SOS_Rev_1_jyc7qx.jpg"
                 alt="Review #1 on Sea of Stars"
               />
               <img
                 class="rev2"
-                src="~..\assets\public\images\Revs\SOS Rev 2.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/SOS_Rev_2_kaah19.jpg"
                 alt="Review #2 on Sea of Stars"
               />
               <img
                 class="rev3"
-                src="~..\assets\public\images\Revs\SOS Rev 3.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/SOS_Rev_3_qjiiza.jpg"
                 alt="Review #3 on Sea of Stars"
               />
               <img
                 class="rev4"
-                src="~..\assets\public\images\Revs\SOS Rev 4.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036963/Comp%20sci%20project/SOS_Rev_4_pn6j7e.jpg"
                 alt="Review #4 on Sea of Stars"
               />
             </div>
@@ -268,7 +268,7 @@
               <img
                 class="bigpics"
                 id="cbimg"
-                src="~../assets/public/images/Beaches/copacabana.jpg"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036484/Comp%20sci%20project/copacabana_x0lwbq.jpg"
                 alt="Image of Copacabana Beach"
               />
               <h3 id="act4" class="activities">Activities</h3>
@@ -292,17 +292,17 @@
                     <cld-transformation height="480" width="480" crop="fill" />
                     <img
                       class="actpics4"
-                      src="~..\assets\public\images\Activities\Beach volleyball.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035155/Comp%20sci%20project/Beach_volleyball_zy5ctn.jpg"
                       alt="Beach volleyball image"
                     />
                     <img
                       class="actpics4"
-                      src="~..\assets\public\images\Activities\Snorkling.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035157/Comp%20sci%20project/Snorkling_pzms86.jpg"
                       alt="Snorkling image"
                     />
                     <img
                       class="actpics4"
-                      src="~..\assets\public\images\Activities\Surfing.jpg"
+                      src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035157/Comp%20sci%20project/Surfing_whulfy.jpg"
                       alt="Surfing image"
                     />
                   </div>
@@ -312,29 +312,29 @@
             <img
               class="foodpics"
               id="cbfood"
-              src="~..\assets\public\images\Food\Copacabana food.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036894/Comp%20sci%20project/Copacabana_food_e2fjtc.webp"
               alt="Image of Copacabana Beach food"
             />
             <h3 class="reviews">Reviews</h3>
             <div id="coprevsdiv">
               <img
                 class="rev1"
-                src="~..\assets\public\images\Revs\Cop Rev 1.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036961/Comp%20sci%20project/Cop_Rev_1_mw2uyw.jpg"
                 alt="Review #1 on Copacabana Beach"
               />
               <img
                 class="rev2"
-                src="~..\assets\public\images\Revs\Cop Rev 2.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Cop_Rev_2_ocisnr.jpg"
                 alt="Review #2 on Copacabana Beach"
               />
               <img
                 class="rev3"
-                src="~..\assets\public\images\Revs\Cop Rev 3.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Cop_Rev_3_wgjptl.jpg"
                 alt="Review #3 on Copacabana Beach"
               />
               <img
                 class="rev4"
-                src="~..\assets\public\images\Revs\Cop Rev 4.JPG"
+                src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/Cop_Rev_4_jw0ozs.jpg"
                 alt="Review #4 on Copacabana Beach"
               />
             </div>
@@ -343,7 +343,7 @@
             <h2 id="riname" class="names">Renaissance Island</h2>
             <img
               class="sand"
-              src="~..\assets\public\images\Beaches\sand.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036481/Comp%20sci%20project/sand_edvrch.webp"
               alt="Image of sand"
             />
             <h3 class="activities">Activities</h3>
@@ -361,17 +361,17 @@
               <div>
                 <img
                   class="actpics5"
-                  src="~..\assets\public\images\Activities\Flamingo Watching.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035153/Comp%20sci%20project/Flamingo_Watching_cibxqr.jpg"
                   alt="Flamingo watching image"
                 />
                 <img
                   class="actpics5"
-                  src="~..\assets\public\images\Activities\Jeep Safari.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035153/Comp%20sci%20project/Jeep_Safari_eebygo.jpg"
                   alt="Jeep safari image"
                 />
                 <img
                   class="actpics5"
-                  src="~..\assets\public\images\Activities\Beach Reading.jpg"
+                  src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035155/Comp%20sci%20project/Beach_Reading_ouebez.jpg"
                   alt="Beach reading image"
                 />
               </div>
@@ -380,35 +380,35 @@
           <img
             id="rifood"
             class="foodpics"
-            src="~..\assets\public\images\Food\Renaissance Island food.jpg"
+            src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036892/Comp%20sci%20project/Renaissance_Island_food_pnglno.webp"
             alt="Image of Renaissance Island food"
           />
           <img
             id="riimg"
             class="bigpics"
-            src="~../assets/public/images/Beaches/ri.png"
+            src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036482/Comp%20sci%20project/ri_xk7v1u.webp"
             alt="Image of Renaissance Island"
           />
           <h3 class="reviews">Reviews</h3>
           <div id="rirevsdiv">
             <img
               class="rev1"
-              src="~../assets/public/images/Revs/RI-Rev-1.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/RI_Rev_1_gw0af4.jpg"
               alt="Review #1 on Renaissance Island"
             />
             <img
               class="rev2"
-              src="~../assets/public/images/Revs/RI Rev 2.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/RI_Rev_2_vled0o.jpg"
               alt="Review #2 on Renaissance Island"
             />
             <img
               class="rev3"
-              src="~../assets/public/images/Revs/RI Rev 3.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/RI_Rev_3_idokah.jpg"
               alt="Review #3 on Renaissance Island"
             />
             <img
               class="rev4"
-              src="~../assets/public/images/Revs/RI Rev 4.jpg"
+              src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654036962/Comp%20sci%20project/RI_Rev_4_iqp46f.jpg"
               alt="Review #4 on Renaissance Island"
             />
           </div>
