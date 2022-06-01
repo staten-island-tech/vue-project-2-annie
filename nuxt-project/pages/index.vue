@@ -1,3 +1,7 @@
+<style>
+@import "style.css";
+</style>
+
 <template>
   <body id="body">
     <div>
@@ -501,6 +505,4 @@ export default {
 };
 </script>
 
-<style>
-@import "style.css";
-</style>
+
