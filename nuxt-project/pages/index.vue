@@ -1,6 +1,5 @@
-
 <template>
-  <div>
+  <div id="body">
     <h1 id="maintitle">Beach Please</h1>
     <div id="gallery">
       <input

@@ -50,9 +50,11 @@ html,
 }
 
 #body {
+  margin-top: -8rem;
   background-image: url("https://wallpaperforu.com/wp-content/uploads/2020/07/marble-wallpaper-200714140305221920x1200.jpg");
   background-size: contain;
 }
+
 
 .switch-checkbox {
   display: none;
