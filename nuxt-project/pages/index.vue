@@ -57,7 +57,6 @@
               </h4>
             </div>
             <div>
-              <cld-transformation height="480" width="480" crop="fill" />
               <div>
                 <img
                   class="actpics"
@@ -131,7 +130,6 @@
                 </div>
                 <div id="actdiv2">
                   <div>
-                    <cld-transformation height="480" width="480" crop="fill" />
                     <img
                       class="actpics2"
                       src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035158/Comp%20sci%20project/Water_polo_seub9q.jpg"
@@ -216,7 +214,6 @@
               </h4>
             </div>
             <div>
-              <cld-transformation height="480" width="480" crop="fill" />
               <img
                 id="fish"
                 class="actpics3"
@@ -293,7 +290,6 @@
                 </div>
                 <div id="actdiv2">
                   <div>
-                    <cld-transformation height="480" width="480" crop="fill" />
                     <img
                       class="actpics4"
                       src="https://res.cloudinary.com/dyyyeutbp/image/upload/v1654035155/Comp%20sci%20project/Beach_volleyball_zy5ctn.jpg"
@@ -361,7 +357,6 @@
               Relax by the shore and curl up with a book to wind down.
             </h4>
             <div>
-              <cld-transformation height="480" width="480" crop="fill" />
               <div>
                 <img
                   class="actpics5"
